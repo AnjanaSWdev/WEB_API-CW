@@ -1,0 +1,2531 @@
+{
+  "provinces": [
+    {
+      "_id": "c45fdb39ab634e48be78312d",
+      "name": "Western Province"
+    },
+    {
+      "_id": "9ecc4c4c36bb4262a64d33f2",
+      "name": "Central Province"
+    },
+    {
+      "_id": "de6be5174bfb4c9c9131da5d",
+      "name": "Southern Province"
+    },
+    {
+      "_id": "438c8cc9ea874213843414fd",
+      "name": "Northern Province"
+    },
+    {
+      "_id": "4ad511872b804a39b1444355",
+      "name": "Eastern Province"
+    },
+    {
+      "_id": "e1e37f40d3c24bdabbc22a0d",
+      "name": "North Western Province"
+    },
+    {
+      "_id": "f9ec5ada7de2463da4109fc1",
+      "name": "North Central Province"
+    },
+    {
+      "_id": "2813b30197114a73bf85a194",
+      "name": "Uva Province"
+    },
+    {
+      "_id": "295af1d9bbdd4933adbc61d5",
+      "name": "Sabaragamuwa Province"
+    }
+  ],
+  "districts": [
+    {
+      "_id": "57f0d6f3440d46c1a26ce686",
+      "name": "Colombo",
+      "provinceId": "c45fdb39ab634e48be78312d"
+    },
+    {
+      "_id": "22d8ca73b2f84f33badb8bab",
+      "name": "Gampaha",
+      "provinceId": "c45fdb39ab634e48be78312d"
+    },
+    {
+      "_id": "4ab6cb20077f4d70bee202f6",
+      "name": "Kalutara",
+      "provinceId": "c45fdb39ab634e48be78312d"
+    },
+    {
+      "_id": "f46607dec7d443bbbd608505",
+      "name": "Kandy",
+      "provinceId": "9ecc4c4c36bb4262a64d33f2"
+    },
+    {
+      "_id": "095d2292e28a43bd8685f1bf",
+      "name": "Matale",
+      "provinceId": "9ecc4c4c36bb4262a64d33f2"
+    },
+    {
+      "_id": "c1c74177fff248d69889f9ab",
+      "name": "Nuwara Eliya",
+      "provinceId": "9ecc4c4c36bb4262a64d33f2"
+    },
+    {
+      "_id": "28cb3c7aeade427a936db2e4",
+      "name": "Galle",
+      "provinceId": "de6be5174bfb4c9c9131da5d"
+    },
+    {
+      "_id": "b880295eff424c499f842d2b",
+      "name": "Matara",
+      "provinceId": "de6be5174bfb4c9c9131da5d"
+    },
+    {
+      "_id": "4aab7f6813a248209a3ad7a7",
+      "name": "Hambantota",
+      "provinceId": "de6be5174bfb4c9c9131da5d"
+    },
+    {
+      "_id": "1aa17077d80d45bcb2f1cfda",
+      "name": "Jaffna",
+      "provinceId": "438c8cc9ea874213843414fd"
+    },
+    {
+      "_id": "9736e0cf2e8849ae83b1c371",
+      "name": "Kilinochchi",
+      "provinceId": "438c8cc9ea874213843414fd"
+    },
+    {
+      "_id": "61d22dc42b5c42eba7e2fc01",
+      "name": "Mannar",
+      "provinceId": "438c8cc9ea874213843414fd"
+    },
+    {
+      "_id": "f13a7d0c22744462b3f7e611",
+      "name": "Vavuniya",
+      "provinceId": "438c8cc9ea874213843414fd"
+    },
+    {
+      "_id": "7fce5e463b874db48f83977b",
+      "name": "Mullaitivu",
+      "provinceId": "438c8cc9ea874213843414fd"
+    },
+    {
+      "_id": "b0ff0d4397ae46b59bd6ea19",
+      "name": "Ampara",
+      "provinceId": "4ad511872b804a39b1444355"
+    },
+    {
+      "_id": "6040a8fb7ab54fabb8106311",
+      "name": "Batticaloa",
+      "provinceId": "4ad511872b804a39b1444355"
+    },
+    {
+      "_id": "6700b0a667274e50a15d1b49",
+      "name": "Trincomalee",
+      "provinceId": "4ad511872b804a39b1444355"
+    },
+    {
+      "_id": "f85cb6b12a6045fa8e2b2546",
+      "name": "Kurunegala",
+      "provinceId": "e1e37f40d3c24bdabbc22a0d"
+    },
+    {
+      "_id": "283a4aa4437246f89f117a58",
+      "name": "Puttalam",
+      "provinceId": "e1e37f40d3c24bdabbc22a0d"
+    },
+    {
+      "_id": "2d922618eb124cfd9f0f3241",
+      "name": "Anuradhapura",
+      "provinceId": "f9ec5ada7de2463da4109fc1"
+    },
+    {
+      "_id": "5c17782246924566ad745221",
+      "name": "Polonnaruwa",
+      "provinceId": "f9ec5ada7de2463da4109fc1"
+    },
+    {
+      "_id": "4f07644f04a6430aa813be0e",
+      "name": "Badulla",
+      "provinceId": "2813b30197114a73bf85a194"
+    },
+    {
+      "_id": "4ed2e756c45b4393a3d60fdd",
+      "name": "Monaragala",
+      "provinceId": "2813b30197114a73bf85a194"
+    },
+    {
+      "_id": "a93444e30940473aadb1a54d",
+      "name": "Ratnapura",
+      "provinceId": "295af1d9bbdd4933adbc61d5"
+    },
+    {
+      "_id": "385a9c6ab44249fdb1bc7392",
+      "name": "Kegalle",
+      "provinceId": "295af1d9bbdd4933adbc61d5"
+    }
+  ],
+  "substations": [
+    {
+      "_id": "b010587135e94e04b82fb081",
+      "name": "Colombo Grid Substation 1",
+      "code": "C-GS1",
+      "districtId": "57f0d6f3440d46c1a26ce686"
+    },
+    {
+      "_id": "48ff897ad8b54c54813d3a86",
+      "name": "Colombo Grid Substation 2",
+      "code": "C-GS2",
+      "districtId": "57f0d6f3440d46c1a26ce686"
+    },
+    {
+      "_id": "8ad49cafb073432395479f50",
+      "name": "Gampaha Grid Substation 1",
+      "code": "G-GS1",
+      "districtId": "22d8ca73b2f84f33badb8bab"
+    },
+    {
+      "_id": "08dd22f800af4654998db053",
+      "name": "Gampaha Grid Substation 2",
+      "code": "G-GS2",
+      "districtId": "22d8ca73b2f84f33badb8bab"
+    },
+    {
+      "_id": "7984f6f975474383874a1e78",
+      "name": "Kalutara Grid Substation 1",
+      "code": "K-GS1",
+      "districtId": "4ab6cb20077f4d70bee202f6"
+    },
+    {
+      "_id": "eb3ffb3cebe949668cfec60c",
+      "name": "Kandy Grid Substation 1",
+      "code": "K-GS1",
+      "districtId": "f46607dec7d443bbbd608505"
+    },
+    {
+      "_id": "836c8bbe86474c8c81aedc82",
+      "name": "Kandy Grid Substation 2",
+      "code": "K-GS2",
+      "districtId": "f46607dec7d443bbbd608505"
+    },
+    {
+      "_id": "953a68615be149efb7ec6c7f",
+      "name": "Matale Grid Substation 1",
+      "code": "M-GS1",
+      "districtId": "095d2292e28a43bd8685f1bf"
+    },
+    {
+      "_id": "59150da967224c12b22fecad",
+      "name": "Nuwara Eliya Grid Substation 1",
+      "code": "NE-GS1",
+      "districtId": "c1c74177fff248d69889f9ab"
+    },
+    {
+      "_id": "97303bbfced84bcfa189c2cf",
+      "name": "Galle Grid Substation 1",
+      "code": "G-GS1",
+      "districtId": "28cb3c7aeade427a936db2e4"
+    },
+    {
+      "_id": "601207d18d6b4f02945d7597",
+      "name": "Galle Grid Substation 2",
+      "code": "G-GS2",
+      "districtId": "28cb3c7aeade427a936db2e4"
+    },
+    {
+      "_id": "c4cf65f74a244583aa1a6192",
+      "name": "Matara Grid Substation 1",
+      "code": "M-GS1",
+      "districtId": "b880295eff424c499f842d2b"
+    },
+    {
+      "_id": "78bd003752a04a0484a65c53",
+      "name": "Hambantota Grid Substation 1",
+      "code": "H-GS1",
+      "districtId": "4aab7f6813a248209a3ad7a7"
+    },
+    {
+      "_id": "e75138c8860c452d8e3302aa",
+      "name": "Jaffna Grid Substation 1",
+      "code": "J-GS1",
+      "districtId": "1aa17077d80d45bcb2f1cfda"
+    },
+    {
+      "_id": "3b7901e358d44c789164f76d",
+      "name": "Kilinochchi Grid Substation 1",
+      "code": "K-GS1",
+      "districtId": "9736e0cf2e8849ae83b1c371"
+    },
+    {
+      "_id": "17f8ae37df1044058e771eac",
+      "name": "Mannar Grid Substation 1",
+      "code": "M-GS1",
+      "districtId": "61d22dc42b5c42eba7e2fc01"
+    },
+    {
+      "_id": "6d79ced70ed248ffaca3e039",
+      "name": "Vavuniya Grid Substation 1",
+      "code": "V-GS1",
+      "districtId": "f13a7d0c22744462b3f7e611"
+    },
+    {
+      "_id": "ed3bfade6a3f4fa48b0b8b62",
+      "name": "Mullaitivu Grid Substation 1",
+      "code": "M-GS1",
+      "districtId": "7fce5e463b874db48f83977b"
+    },
+    {
+      "_id": "043602662d7847969ec27b6c",
+      "name": "Ampara Grid Substation 1",
+      "code": "A-GS1",
+      "districtId": "b0ff0d4397ae46b59bd6ea19"
+    },
+    {
+      "_id": "9e6cf46ddfb845519f8bd991",
+      "name": "Batticaloa Grid Substation 1",
+      "code": "B-GS1",
+      "districtId": "6040a8fb7ab54fabb8106311"
+    },
+    {
+      "_id": "8030aa9452894e0fab27e47e",
+      "name": "Trincomalee Grid Substation 1",
+      "code": "T-GS1",
+      "districtId": "6700b0a667274e50a15d1b49"
+    },
+    {
+      "_id": "018d8fbcc554497c82a433e7",
+      "name": "Kurunegala Grid Substation 1",
+      "code": "K-GS1",
+      "districtId": "f85cb6b12a6045fa8e2b2546"
+    },
+    {
+      "_id": "1cad854c8ce643fda280cbf2",
+      "name": "Kurunegala Grid Substation 2",
+      "code": "K-GS2",
+      "districtId": "f85cb6b12a6045fa8e2b2546"
+    },
+    {
+      "_id": "137f8877c0c342799766b3b7",
+      "name": "Puttalam Grid Substation 1",
+      "code": "P-GS1",
+      "districtId": "283a4aa4437246f89f117a58"
+    },
+    {
+      "_id": "d01039475e314b55959d5e73",
+      "name": "Anuradhapura Grid Substation 1",
+      "code": "A-GS1",
+      "districtId": "2d922618eb124cfd9f0f3241"
+    },
+    {
+      "_id": "4bc2da74a12e4241af54fbaa",
+      "name": "Polonnaruwa Grid Substation 1",
+      "code": "P-GS1",
+      "districtId": "5c17782246924566ad745221"
+    },
+    {
+      "_id": "c3a7fb4777964f6e9dc997fb",
+      "name": "Badulla Grid Substation 1",
+      "code": "B-GS1",
+      "districtId": "4f07644f04a6430aa813be0e"
+    },
+    {
+      "_id": "d131dd8b0471467f97ef601a",
+      "name": "Monaragala Grid Substation 1",
+      "code": "M-GS1",
+      "districtId": "4ed2e756c45b4393a3d60fdd"
+    },
+    {
+      "_id": "7ff089a2f64f4bb2b5bcd4ef",
+      "name": "Ratnapura Grid Substation 1",
+      "code": "R-GS1",
+      "districtId": "a93444e30940473aadb1a54d"
+    },
+    {
+      "_id": "f6f6c4f80138430daf65b153",
+      "name": "Kegalle Grid Substation 1",
+      "code": "K-GS1",
+      "districtId": "385a9c6ab44249fdb1bc7392"
+    }
+  ],
+  "installations": [
+    {
+      "_id": "09ed5bb966564f04936964a5",
+      "ownerName": "Sunil Perera",
+      "address": "No. 58, Lane 4, Colombo",
+      "capacityKw": 8,
+      "meterId": "MTR-COL-46048",
+      "substationId": "b010587135e94e04b82fb081",
+      "installedDate": "2024-05-05T00:00:00+00:00",
+      "apiKey": "08ae8c2affda456999ed5cd8eb7285c4"
+    },
+    {
+      "_id": "60774309a89044c18bf065b2",
+      "ownerName": "Ishara Dissanayake",
+      "address": "No. 9, Road 3, Colombo",
+      "capacityKw": 3,
+      "meterId": "MTR-COL-87397",
+      "substationId": "b010587135e94e04b82fb081",
+      "installedDate": "2024-08-04T00:00:00+00:00",
+      "apiKey": "a0013fd51a9b43a2bb90995d429dba23"
+    },
+    {
+      "_id": "582a4abe855743dc84d101a0",
+      "ownerName": "Priya Jayasuriya",
+      "address": "No. 144, Lane 18, Colombo",
+      "capacityKw": 6,
+      "meterId": "MTR-COL-88907",
+      "substationId": "b010587135e94e04b82fb081",
+      "installedDate": "2024-01-14T00:00:00+00:00",
+      "apiKey": "295d8bb934ca4f498a8e86e3ed9705fd"
+    },
+    {
+      "_id": "a46d1ac162b44d1d87f15a78",
+      "ownerName": "Chamari Jayasuriya",
+      "address": "No. 208, Road 6, Colombo",
+      "capacityKw": 5.5,
+      "meterId": "MTR-COL-87236",
+      "substationId": "b010587135e94e04b82fb081",
+      "installedDate": "2024-05-22T00:00:00+00:00",
+      "apiKey": "b10af00b41fc4714bae86e78a39cd801"
+    },
+    {
+      "_id": "9c65df41ca154fd3b46e242c",
+      "ownerName": "Nadeeka Rajapaksa",
+      "address": "No. 56, Mawatha 4, Colombo",
+      "capacityKw": 5,
+      "meterId": "MTR-COL-46421",
+      "substationId": "b010587135e94e04b82fb081",
+      "installedDate": "2024-03-20T00:00:00+00:00",
+      "apiKey": "d7300343641542af8b05b11d01b311b6"
+    },
+    {
+      "_id": "a2c67d5603234c43abd53755",
+      "ownerName": "Sunil Rajapaksa",
+      "address": "No. 89, Mawatha 2, Colombo",
+      "capacityKw": 3,
+      "meterId": "MTR-COL-57052",
+      "substationId": "b010587135e94e04b82fb081",
+      "installedDate": "2025-03-09T00:00:00+00:00",
+      "apiKey": "c28e499f48ce461ba6f78e87cd71cf39"
+    },
+    {
+      "_id": "c9962ab5abdd4fb59983a9d6",
+      "ownerName": "Nadeeka Gunawardena",
+      "address": "No. 237, Place 3, Colombo",
+      "capacityKw": 6,
+      "meterId": "MTR-COL-26361",
+      "substationId": "b010587135e94e04b82fb081",
+      "installedDate": "2025-05-13T00:00:00+00:00",
+      "apiKey": "7b071e220c414e3389ee2aeec8022170"
+    },
+    {
+      "_id": "d7f1e5c11d774d458adb34fe",
+      "ownerName": "Saman Bandara",
+      "address": "No. 227, Mawatha 19, Colombo",
+      "capacityKw": 10,
+      "meterId": "MTR-COL-92397",
+      "substationId": "b010587135e94e04b82fb081",
+      "installedDate": "2024-11-12T00:00:00+00:00",
+      "apiKey": "f62916676e494418b8f9f0c532d14ba3"
+    },
+    {
+      "_id": "e9ff13164b11474ca81c53f8",
+      "ownerName": "Nadeeka Fernando",
+      "address": "No. 198, Mawatha 3, Colombo",
+      "capacityKw": 3,
+      "meterId": "MTR-COL-96673",
+      "substationId": "48ff897ad8b54c54813d3a86",
+      "installedDate": "2024-04-26T00:00:00+00:00",
+      "apiKey": "c413273ad26d4d28afb5db2cb35a7a6f"
+    },
+    {
+      "_id": "6aae242c154d43ada0e5345f",
+      "ownerName": "Malsha Jayasuriya",
+      "address": "No. 72, Place 12, Colombo",
+      "capacityKw": 10,
+      "meterId": "MTR-COL-23238",
+      "substationId": "48ff897ad8b54c54813d3a86",
+      "installedDate": "2024-07-13T00:00:00+00:00",
+      "apiKey": "cf78e3a249e54ddeb6509cac647bf937"
+    },
+    {
+      "_id": "a8f7a73b583d418b8cb23cce",
+      "ownerName": "Kamal Wickramasinghe",
+      "address": "No. 69, Road 20, Colombo",
+      "capacityKw": 5,
+      "meterId": "MTR-COL-37460",
+      "substationId": "48ff897ad8b54c54813d3a86",
+      "installedDate": "2024-12-09T00:00:00+00:00",
+      "apiKey": "563176762f124babb0ef19041567f3ff"
+    },
+    {
+      "_id": "ed7a5ce8262a403fb56ad47e",
+      "ownerName": "Ishara Silva",
+      "address": "No. 119, Place 9, Colombo",
+      "capacityKw": 6,
+      "meterId": "MTR-COL-42087",
+      "substationId": "48ff897ad8b54c54813d3a86",
+      "installedDate": "2024-03-24T00:00:00+00:00",
+      "apiKey": "6510b78d90a94599ba77d35b9bd16210"
+    },
+    {
+      "_id": "921c1dabf0e9423e8df01644",
+      "ownerName": "Chathura Dissanayake",
+      "address": "No. 216, Road 8, Colombo",
+      "capacityKw": 4,
+      "meterId": "MTR-COL-99733",
+      "substationId": "48ff897ad8b54c54813d3a86",
+      "installedDate": "2024-06-15T00:00:00+00:00",
+      "apiKey": "2c9bca8f6d5c4090bd900944f3932ec3"
+    },
+    {
+      "_id": "6491ee6ec2d14354b1d74ac8",
+      "ownerName": "Malsha Perera",
+      "address": "No. 69, Road 7, Colombo",
+      "capacityKw": 10,
+      "meterId": "MTR-COL-51347",
+      "substationId": "48ff897ad8b54c54813d3a86",
+      "installedDate": "2024-07-24T00:00:00+00:00",
+      "apiKey": "95aee67dc5c54c229ba4384c4f2d1f42"
+    },
+    {
+      "_id": "85181adf55df47c8ac8262f5",
+      "ownerName": "Chathura Wickramasinghe",
+      "address": "No. 102, Place 5, Gampaha",
+      "capacityKw": 4,
+      "meterId": "MTR-GAM-95909",
+      "substationId": "8ad49cafb073432395479f50",
+      "installedDate": "2024-09-12T00:00:00+00:00",
+      "apiKey": "6f4a675cca094472ac9870f06340cad4"
+    },
+    {
+      "_id": "e36ff39723d440b18a7abbf3",
+      "ownerName": "Anusha Silva",
+      "address": "No. 68, Place 19, Gampaha",
+      "capacityKw": 4,
+      "meterId": "MTR-GAM-83579",
+      "substationId": "8ad49cafb073432395479f50",
+      "installedDate": "2024-10-02T00:00:00+00:00",
+      "apiKey": "aad3a7a1a2fd488487d7ae4d6f094daa"
+    },
+    {
+      "_id": "af1297c793694aa7b0848c73",
+      "ownerName": "Chamari Wickramasinghe",
+      "address": "No. 127, Road 2, Gampaha",
+      "capacityKw": 4,
+      "meterId": "MTR-GAM-28131",
+      "substationId": "8ad49cafb073432395479f50",
+      "installedDate": "2024-09-17T00:00:00+00:00",
+      "apiKey": "d5ed9a5ba0df4b83814a0c899f22af6e"
+    },
+    {
+      "_id": "962fad03b79e466b9a608f78",
+      "ownerName": "Malsha Fernando",
+      "address": "No. 203, Place 20, Gampaha",
+      "capacityKw": 4,
+      "meterId": "MTR-GAM-92240",
+      "substationId": "8ad49cafb073432395479f50",
+      "installedDate": "2024-03-22T00:00:00+00:00",
+      "apiKey": "0393ba001dbb46109ba8e4057de746d2"
+    },
+    {
+      "_id": "7cb1adb48eb84cc588d4ac12",
+      "ownerName": "Sunil Rajapaksa",
+      "address": "No. 136, Mawatha 18, Gampaha",
+      "capacityKw": 5.5,
+      "meterId": "MTR-GAM-88104",
+      "substationId": "8ad49cafb073432395479f50",
+      "installedDate": "2024-08-27T00:00:00+00:00",
+      "apiKey": "c5a9250e3bc343e7a11982c08e5878b9"
+    },
+    {
+      "_id": "78a215d4dce7496296c5e8c0",
+      "ownerName": "Malsha Perera",
+      "address": "No. 227, Mawatha 11, Gampaha",
+      "capacityKw": 8,
+      "meterId": "MTR-GAM-25014",
+      "substationId": "8ad49cafb073432395479f50",
+      "installedDate": "2024-12-15T00:00:00+00:00",
+      "apiKey": "ee94bf95090841408edb083fc07f5f4e"
+    },
+    {
+      "_id": "ab93897743ce4ee0a69ceb5f",
+      "ownerName": "Sunil Bandara",
+      "address": "No. 1, Mawatha 17, Gampaha",
+      "capacityKw": 5.5,
+      "meterId": "MTR-GAM-30730",
+      "substationId": "8ad49cafb073432395479f50",
+      "installedDate": "2024-08-20T00:00:00+00:00",
+      "apiKey": "f149d8ef0652410c9c47a1cc57eef011"
+    },
+    {
+      "_id": "a777f19dcd774e3e8a41f39c",
+      "ownerName": "Tharindu Silva",
+      "address": "No. 161, Mawatha 17, Gampaha",
+      "capacityKw": 6,
+      "meterId": "MTR-GAM-23947",
+      "substationId": "8ad49cafb073432395479f50",
+      "installedDate": "2025-03-21T00:00:00+00:00",
+      "apiKey": "81e06b542b6f44c9b3169895304b4973"
+    },
+    {
+      "_id": "ab9e2452ea6441c480f88fdc",
+      "ownerName": "Priya Silva",
+      "address": "No. 245, Road 20, Gampaha",
+      "capacityKw": 5,
+      "meterId": "MTR-GAM-31174",
+      "substationId": "08dd22f800af4654998db053",
+      "installedDate": "2024-10-03T00:00:00+00:00",
+      "apiKey": "240eff935e8245bb913627145fab31be"
+    },
+    {
+      "_id": "a28fb42facab401dbf7a7b8f",
+      "ownerName": "Ruwan Gunawardena",
+      "address": "No. 93, Mawatha 8, Gampaha",
+      "capacityKw": 3,
+      "meterId": "MTR-GAM-24662",
+      "substationId": "08dd22f800af4654998db053",
+      "installedDate": "2025-04-20T00:00:00+00:00",
+      "apiKey": "df1c7e900284481f842fc19b4eb712c2"
+    },
+    {
+      "_id": "2267a8b369eb44b5b7f0f7f7",
+      "ownerName": "Nimal Jayasuriya",
+      "address": "No. 188, Place 3, Gampaha",
+      "capacityKw": 6,
+      "meterId": "MTR-GAM-20322",
+      "substationId": "08dd22f800af4654998db053",
+      "installedDate": "2024-02-13T00:00:00+00:00",
+      "apiKey": "de181051739f411b8c6c4e507934c059"
+    },
+    {
+      "_id": "3860642c07764ccd85717b62",
+      "ownerName": "Tharindu Dissanayake",
+      "address": "No. 169, Place 18, Gampaha",
+      "capacityKw": 10,
+      "meterId": "MTR-GAM-26483",
+      "substationId": "08dd22f800af4654998db053",
+      "installedDate": "2024-03-06T00:00:00+00:00",
+      "apiKey": "b3392fc3ae5548bdbead21723f5471d7"
+    },
+    {
+      "_id": "f563e0d580a44ea199bafef7",
+      "ownerName": "Kamal Bandara",
+      "address": "No. 247, Lane 18, Gampaha",
+      "capacityKw": 6,
+      "meterId": "MTR-GAM-89507",
+      "substationId": "08dd22f800af4654998db053",
+      "installedDate": "2024-08-04T00:00:00+00:00",
+      "apiKey": "afa2126e2296444b88a67cd30c1bbd79"
+    },
+    {
+      "_id": "f952be5904b34e869ed920fa",
+      "ownerName": "Tharindu Jayasuriya",
+      "address": "No. 172, Mawatha 15, Gampaha",
+      "capacityKw": 8,
+      "meterId": "MTR-GAM-50857",
+      "substationId": "08dd22f800af4654998db053",
+      "installedDate": "2024-07-23T00:00:00+00:00",
+      "apiKey": "20161892f7494653bcbcd73d440f9bc1"
+    },
+    {
+      "_id": "cfec6879dd14452f82d5a60f",
+      "ownerName": "Chathura Dissanayake",
+      "address": "No. 58, Road 11, Gampaha",
+      "capacityKw": 5.5,
+      "meterId": "MTR-GAM-25860",
+      "substationId": "08dd22f800af4654998db053",
+      "installedDate": "2024-05-06T00:00:00+00:00",
+      "apiKey": "52933b17212c4044b850e70138fd56e2"
+    },
+    {
+      "_id": "176b268da7d542d49f879440",
+      "ownerName": "Nimal Karunaratne",
+      "address": "No. 57, Road 3, Gampaha",
+      "capacityKw": 6,
+      "meterId": "MTR-GAM-40161",
+      "substationId": "08dd22f800af4654998db053",
+      "installedDate": "2024-10-28T00:00:00+00:00",
+      "apiKey": "46a0abb25beb4bc785c3a161204827df"
+    },
+    {
+      "_id": "d9205ed85cf741d082c6e864",
+      "ownerName": "Ishara Perera",
+      "address": "No. 9, Mawatha 3, Kalutara",
+      "capacityKw": 4,
+      "meterId": "MTR-KAL-18834",
+      "substationId": "7984f6f975474383874a1e78",
+      "installedDate": "2025-04-08T00:00:00+00:00",
+      "apiKey": "3ac8ed3bc2cd4a398299468f97fba869"
+    },
+    {
+      "_id": "1c6290ad2eb34702bb1ab8ca",
+      "ownerName": "Saman Jayasuriya",
+      "address": "No. 55, Lane 19, Kalutara",
+      "capacityKw": 5,
+      "meterId": "MTR-KAL-97684",
+      "substationId": "7984f6f975474383874a1e78",
+      "installedDate": "2024-09-05T00:00:00+00:00",
+      "apiKey": "d8673c9d0c364ae8aed0106b94ebcfc9"
+    },
+    {
+      "_id": "5e4fe1d2d3ab424aa0ebcc31",
+      "ownerName": "Kasun Gunawardena",
+      "address": "No. 105, Lane 4, Kalutara",
+      "capacityKw": 4,
+      "meterId": "MTR-KAL-71993",
+      "substationId": "7984f6f975474383874a1e78",
+      "installedDate": "2025-02-17T00:00:00+00:00",
+      "apiKey": "c8531db3f7b741c1bf027e0a7b65fda6"
+    },
+    {
+      "_id": "2a2fae4f5e2043b78ebc8b73",
+      "ownerName": "Sunil Rajapaksa",
+      "address": "No. 120, Road 4, Kalutara",
+      "capacityKw": 5,
+      "meterId": "MTR-KAL-65519",
+      "substationId": "7984f6f975474383874a1e78",
+      "installedDate": "2024-07-29T00:00:00+00:00",
+      "apiKey": "6a43e00672d4421a9b6528f96eaa2e02"
+    },
+    {
+      "_id": "323c0adc3a9140c9ba6871bf",
+      "ownerName": "Nimal Rajapaksa",
+      "address": "No. 221, Road 8, Kalutara",
+      "capacityKw": 8,
+      "meterId": "MTR-KAL-54473",
+      "substationId": "7984f6f975474383874a1e78",
+      "installedDate": "2025-02-13T00:00:00+00:00",
+      "apiKey": "ec8e48f2fc444098b13b4d2ec2cd1325"
+    },
+    {
+      "_id": "b09420415adf445e858a0ed6",
+      "ownerName": "Priya Jayasuriya",
+      "address": "No. 109, Lane 9, Kalutara",
+      "capacityKw": 6,
+      "meterId": "MTR-KAL-68800",
+      "substationId": "7984f6f975474383874a1e78",
+      "installedDate": "2024-03-12T00:00:00+00:00",
+      "apiKey": "adfa1fd3f7f94d3ab6c09a6b70e5d0d4"
+    },
+    {
+      "_id": "00d2e3b0a6384e509443a419",
+      "ownerName": "Dilani Jayasuriya",
+      "address": "No. 207, Road 2, Kalutara",
+      "capacityKw": 10,
+      "meterId": "MTR-KAL-19880",
+      "substationId": "7984f6f975474383874a1e78",
+      "installedDate": "2024-08-14T00:00:00+00:00",
+      "apiKey": "bc9196e52a454f63b8f4e7d4b04fa2a6"
+    },
+    {
+      "_id": "67309441aa3545ebad0009ef",
+      "ownerName": "Ishara Dissanayake",
+      "address": "No. 24, Lane 6, Kalutara",
+      "capacityKw": 10,
+      "meterId": "MTR-KAL-11934",
+      "substationId": "7984f6f975474383874a1e78",
+      "installedDate": "2025-05-11T00:00:00+00:00",
+      "apiKey": "2952e7492bb84bb5a0132129936a56d5"
+    },
+    {
+      "_id": "f3aade78e82845999bf4d5a7",
+      "ownerName": "Dilani Gunawardena",
+      "address": "No. 16, Lane 13, Kandy",
+      "capacityKw": 4,
+      "meterId": "MTR-KAN-62565",
+      "substationId": "eb3ffb3cebe949668cfec60c",
+      "installedDate": "2025-04-07T00:00:00+00:00",
+      "apiKey": "ce3ea8142bfa4f8290029e603853a830"
+    },
+    {
+      "_id": "c64e7260afc3452887074f67",
+      "ownerName": "Nimal Rajapaksa",
+      "address": "No. 109, Place 5, Kandy",
+      "capacityKw": 5,
+      "meterId": "MTR-KAN-69638",
+      "substationId": "eb3ffb3cebe949668cfec60c",
+      "installedDate": "2024-05-26T00:00:00+00:00",
+      "apiKey": "423ec5358ff2450e9d18e128f59a40a3"
+    },
+    {
+      "_id": "87515af340bd423b83eb9fc3",
+      "ownerName": "Priya Bandara",
+      "address": "No. 189, Road 11, Kandy",
+      "capacityKw": 4,
+      "meterId": "MTR-KAN-17665",
+      "substationId": "eb3ffb3cebe949668cfec60c",
+      "installedDate": "2024-10-23T00:00:00+00:00",
+      "apiKey": "9b1e1db46e8d4aef8d0c33e51ad2d8b8"
+    },
+    {
+      "_id": "b678ffec12b345269e3d5164",
+      "ownerName": "Nimal Perera",
+      "address": "No. 236, Lane 2, Kandy",
+      "capacityKw": 6,
+      "meterId": "MTR-KAN-72493",
+      "substationId": "eb3ffb3cebe949668cfec60c",
+      "installedDate": "2024-09-14T00:00:00+00:00",
+      "apiKey": "ced87c79d45b4349889f10aa284c92bb"
+    },
+    {
+      "_id": "3a190f9ffe3a4e98b4f96aa3",
+      "ownerName": "Saman Fernando",
+      "address": "No. 153, Road 8, Kandy",
+      "capacityKw": 10,
+      "meterId": "MTR-KAN-34356",
+      "substationId": "eb3ffb3cebe949668cfec60c",
+      "installedDate": "2024-02-05T00:00:00+00:00",
+      "apiKey": "c68347879ddb4099a1a51e85acfc434d"
+    },
+    {
+      "_id": "a73322202024483c94cb234e",
+      "ownerName": "Chamari Fernando",
+      "address": "No. 153, Road 20, Kandy",
+      "capacityKw": 6,
+      "meterId": "MTR-KAN-42271",
+      "substationId": "eb3ffb3cebe949668cfec60c",
+      "installedDate": "2024-10-23T00:00:00+00:00",
+      "apiKey": "b18c24dfd6c64663b48157bccdaf0648"
+    },
+    {
+      "_id": "a0420b4e7be0498cad9d672a",
+      "ownerName": "Sunil Rajapaksa",
+      "address": "No. 134, Mawatha 9, Kandy",
+      "capacityKw": 8,
+      "meterId": "MTR-KAN-86503",
+      "substationId": "eb3ffb3cebe949668cfec60c",
+      "installedDate": "2024-10-16T00:00:00+00:00",
+      "apiKey": "137a1fda32a64159a2f3db8dcea5f2eb"
+    },
+    {
+      "_id": "6eb7bf5eeb504fa6a700b7c4",
+      "ownerName": "Ishara Wickramasinghe",
+      "address": "No. 34, Mawatha 15, Kandy",
+      "capacityKw": 4,
+      "meterId": "MTR-KAN-44814",
+      "substationId": "836c8bbe86474c8c81aedc82",
+      "installedDate": "2024-07-21T00:00:00+00:00",
+      "apiKey": "cc3b34ab60794fd884c0e7385a465833"
+    },
+    {
+      "_id": "e21d76fcd1ca4bac8b3c7e1b",
+      "ownerName": "Ruwan Fernando",
+      "address": "No. 145, Road 3, Kandy",
+      "capacityKw": 3,
+      "meterId": "MTR-KAN-70068",
+      "substationId": "836c8bbe86474c8c81aedc82",
+      "installedDate": "2024-11-14T00:00:00+00:00",
+      "apiKey": "2f74eac11c204362bb0aa4c954bb5623"
+    },
+    {
+      "_id": "c60fa0dd6ec0416790f678b4",
+      "ownerName": "Saman Jayasuriya",
+      "address": "No. 239, Mawatha 3, Kandy",
+      "capacityKw": 6,
+      "meterId": "MTR-KAN-44760",
+      "substationId": "836c8bbe86474c8c81aedc82",
+      "installedDate": "2024-03-08T00:00:00+00:00",
+      "apiKey": "fb1222cad6c44696b4d5f416b3c519de"
+    },
+    {
+      "_id": "9bb4702eed354ab8ae68d2e5",
+      "ownerName": "Chathura Jayasuriya",
+      "address": "No. 113, Mawatha 20, Kandy",
+      "capacityKw": 5,
+      "meterId": "MTR-KAN-47353",
+      "substationId": "836c8bbe86474c8c81aedc82",
+      "installedDate": "2024-03-21T00:00:00+00:00",
+      "apiKey": "89fb01dffd2d406f8c3c53f06644bb30"
+    },
+    {
+      "_id": "9bf7702a1ba04862869176ab",
+      "ownerName": "Tharindu Dissanayake",
+      "address": "No. 142, Mawatha 4, Kandy",
+      "capacityKw": 3,
+      "meterId": "MTR-KAN-97538",
+      "substationId": "836c8bbe86474c8c81aedc82",
+      "installedDate": "2025-02-22T00:00:00+00:00",
+      "apiKey": "15f6ec559a974a36896ed4c13cdd06f4"
+    },
+    {
+      "_id": "edb5802813fe44c087b35037",
+      "ownerName": "Chathura Silva",
+      "address": "No. 28, Lane 9, Kandy",
+      "capacityKw": 5,
+      "meterId": "MTR-KAN-25129",
+      "substationId": "836c8bbe86474c8c81aedc82",
+      "installedDate": "2025-03-31T00:00:00+00:00",
+      "apiKey": "f483409e4b2c4358adbbeb602b88280c"
+    },
+    {
+      "_id": "35dd0f988acc4b588473a3b1",
+      "ownerName": "Kasun Jayasuriya",
+      "address": "No. 176, Mawatha 17, Matale",
+      "capacityKw": 8,
+      "meterId": "MTR-MAT-54942",
+      "substationId": "953a68615be149efb7ec6c7f",
+      "installedDate": "2024-04-14T00:00:00+00:00",
+      "apiKey": "0d84257b608546a098a6ed90f9c21f0d"
+    },
+    {
+      "_id": "df64b991899747a786283d5d",
+      "ownerName": "Dilani Bandara",
+      "address": "No. 163, Place 9, Matale",
+      "capacityKw": 10,
+      "meterId": "MTR-MAT-16658",
+      "substationId": "953a68615be149efb7ec6c7f",
+      "installedDate": "2024-02-17T00:00:00+00:00",
+      "apiKey": "4de7f64eb0b5497a92238630076f1e0e"
+    },
+    {
+      "_id": "54352f4db74f4424ba828c28",
+      "ownerName": "Nimal Perera",
+      "address": "No. 68, Lane 15, Matale",
+      "capacityKw": 5,
+      "meterId": "MTR-MAT-27146",
+      "substationId": "953a68615be149efb7ec6c7f",
+      "installedDate": "2024-11-22T00:00:00+00:00",
+      "apiKey": "1607f18e0f724891b4a4197e0a0e08f7"
+    },
+    {
+      "_id": "a9224cb6cc1d4e508328e4cd",
+      "ownerName": "Saman Rajapaksa",
+      "address": "No. 20, Lane 18, Matale",
+      "capacityKw": 6,
+      "meterId": "MTR-MAT-11267",
+      "substationId": "953a68615be149efb7ec6c7f",
+      "installedDate": "2024-02-27T00:00:00+00:00",
+      "apiKey": "f23c7676e2764b7d82da04981f06e434"
+    },
+    {
+      "_id": "6110d5e8a9a94fa6b72cb542",
+      "ownerName": "Nimal Wickramasinghe",
+      "address": "No. 111, Lane 2, Matale",
+      "capacityKw": 6,
+      "meterId": "MTR-MAT-82420",
+      "substationId": "953a68615be149efb7ec6c7f",
+      "installedDate": "2024-03-16T00:00:00+00:00",
+      "apiKey": "11ba30f813d24e14ad2ef1a04ad77dfa"
+    },
+    {
+      "_id": "f208f053245941ecbf3b4053",
+      "ownerName": "Anusha Wickramasinghe",
+      "address": "No. 92, Lane 8, Matale",
+      "capacityKw": 10,
+      "meterId": "MTR-MAT-15229",
+      "substationId": "953a68615be149efb7ec6c7f",
+      "installedDate": "2025-04-05T00:00:00+00:00",
+      "apiKey": "6fc02345147048a6b5b57622be4fc3c7"
+    },
+    {
+      "_id": "66b6ae4727304f3d9118796b",
+      "ownerName": "Ishara Fernando",
+      "address": "No. 224, Place 20, Matale",
+      "capacityKw": 5,
+      "meterId": "MTR-MAT-83385",
+      "substationId": "953a68615be149efb7ec6c7f",
+      "installedDate": "2025-03-28T00:00:00+00:00",
+      "apiKey": "da2bb48b78bb4c9f8840260c663e88ef"
+    },
+    {
+      "_id": "339a5c6f51b14d7db60a448f",
+      "ownerName": "Kamal Jayasuriya",
+      "address": "No. 205, Lane 14, Nuwara Eliya",
+      "capacityKw": 10,
+      "meterId": "MTR-NUW-31299",
+      "substationId": "59150da967224c12b22fecad",
+      "installedDate": "2025-05-14T00:00:00+00:00",
+      "apiKey": "1f53ac6113074f1d892b750175ba7f56"
+    },
+    {
+      "_id": "6a32f3635eb941709769a641",
+      "ownerName": "Nimal Silva",
+      "address": "No. 239, Place 8, Nuwara Eliya",
+      "capacityKw": 8,
+      "meterId": "MTR-NUW-53540",
+      "substationId": "59150da967224c12b22fecad",
+      "installedDate": "2025-02-04T00:00:00+00:00",
+      "apiKey": "f6638c99ea9242ad85efbfbc4df81ced"
+    },
+    {
+      "_id": "3957f7bc25834fb6984f1c0d",
+      "ownerName": "Anusha Silva",
+      "address": "No. 224, Road 16, Nuwara Eliya",
+      "capacityKw": 10,
+      "meterId": "MTR-NUW-24168",
+      "substationId": "59150da967224c12b22fecad",
+      "installedDate": "2024-07-14T00:00:00+00:00",
+      "apiKey": "c09817bee48249d4a29500f36dff12b8"
+    },
+    {
+      "_id": "f0bafdf75e0c464294fc1988",
+      "ownerName": "Priya Jayasuriya",
+      "address": "No. 79, Lane 8, Nuwara Eliya",
+      "capacityKw": 10,
+      "meterId": "MTR-NUW-70332",
+      "substationId": "59150da967224c12b22fecad",
+      "installedDate": "2024-06-28T00:00:00+00:00",
+      "apiKey": "edcbfaf7e3a247729b28faf0c4339af8"
+    },
+    {
+      "_id": "d76131db2bf04a90b4185ccc",
+      "ownerName": "Nimal Jayasuriya",
+      "address": "No. 222, Road 9, Nuwara Eliya",
+      "capacityKw": 5.5,
+      "meterId": "MTR-NUW-53025",
+      "substationId": "59150da967224c12b22fecad",
+      "installedDate": "2024-05-22T00:00:00+00:00",
+      "apiKey": "d6648a8ffb6f43f98d5f66461e305914"
+    },
+    {
+      "_id": "ed01e0005007425b9d559fa7",
+      "ownerName": "Ruwan Dissanayake",
+      "address": "No. 138, Mawatha 1, Nuwara Eliya",
+      "capacityKw": 5.5,
+      "meterId": "MTR-NUW-99065",
+      "substationId": "59150da967224c12b22fecad",
+      "installedDate": "2025-03-07T00:00:00+00:00",
+      "apiKey": "22a853cb47f4463e858e3d482f2d48b8"
+    },
+    {
+      "_id": "ad064374c0c84d879c9440c6",
+      "ownerName": "Sunil Bandara",
+      "address": "No. 68, Road 4, Nuwara Eliya",
+      "capacityKw": 4,
+      "meterId": "MTR-NUW-86099",
+      "substationId": "59150da967224c12b22fecad",
+      "installedDate": "2025-05-07T00:00:00+00:00",
+      "apiKey": "776b80f7c9b04efba0728348321906ff"
+    },
+    {
+      "_id": "86fde46b8e7146b4b19721fe",
+      "ownerName": "Kasun Rajapaksa",
+      "address": "No. 156, Road 13, Nuwara Eliya",
+      "capacityKw": 5,
+      "meterId": "MTR-NUW-51114",
+      "substationId": "59150da967224c12b22fecad",
+      "installedDate": "2024-08-11T00:00:00+00:00",
+      "apiKey": "8f54e2031aae4238b9be1e424723b330"
+    },
+    {
+      "_id": "ef67a4d1ba414f24a2c0caa9",
+      "ownerName": "Priya Bandara",
+      "address": "No. 134, Lane 12, Galle",
+      "capacityKw": 3,
+      "meterId": "MTR-GAL-67154",
+      "substationId": "97303bbfced84bcfa189c2cf",
+      "installedDate": "2024-01-01T00:00:00+00:00",
+      "apiKey": "ac41b1116afc4d8594ec256dacec91d3"
+    },
+    {
+      "_id": "844448b209c14ab28da694c3",
+      "ownerName": "Chamari Fernando",
+      "address": "No. 81, Road 10, Galle",
+      "capacityKw": 8,
+      "meterId": "MTR-GAL-53279",
+      "substationId": "97303bbfced84bcfa189c2cf",
+      "installedDate": "2024-11-15T00:00:00+00:00",
+      "apiKey": "8c6daa2725ed417f8e603ca762aa5374"
+    },
+    {
+      "_id": "6df18bf880744e9fab8d49ca",
+      "ownerName": "Saman Bandara",
+      "address": "No. 104, Mawatha 18, Galle",
+      "capacityKw": 8,
+      "meterId": "MTR-GAL-63528",
+      "substationId": "97303bbfced84bcfa189c2cf",
+      "installedDate": "2024-06-16T00:00:00+00:00",
+      "apiKey": "b5ad0284f85a49b7ab4c9dbcd25ab279"
+    },
+    {
+      "_id": "740ee93b43cb4108a0063f3c",
+      "ownerName": "Kamal Jayasuriya",
+      "address": "No. 98, Lane 20, Galle",
+      "capacityKw": 5.5,
+      "meterId": "MTR-GAL-97153",
+      "substationId": "97303bbfced84bcfa189c2cf",
+      "installedDate": "2025-04-26T00:00:00+00:00",
+      "apiKey": "871ff0e256d54ee58aba37ff60df6916"
+    },
+    {
+      "_id": "61be35d61e434be8bdc2ecdc",
+      "ownerName": "Kasun Bandara",
+      "address": "No. 1, Mawatha 10, Galle",
+      "capacityKw": 5.5,
+      "meterId": "MTR-GAL-81819",
+      "substationId": "97303bbfced84bcfa189c2cf",
+      "installedDate": "2025-03-02T00:00:00+00:00",
+      "apiKey": "1d5827a40e614cdcb580938842726b77"
+    },
+    {
+      "_id": "274a74e99ac647769a2a4a1d",
+      "ownerName": "Priya Rajapaksa",
+      "address": "No. 168, Mawatha 15, Galle",
+      "capacityKw": 10,
+      "meterId": "MTR-GAL-86019",
+      "substationId": "97303bbfced84bcfa189c2cf",
+      "installedDate": "2024-11-06T00:00:00+00:00",
+      "apiKey": "f1f1d76c520f42fe85e25c8deb5b879c"
+    },
+    {
+      "_id": "3f21af971e0a42f0b711f794",
+      "ownerName": "Dilani Gunawardena",
+      "address": "No. 122, Lane 3, Galle",
+      "capacityKw": 8,
+      "meterId": "MTR-GAL-38010",
+      "substationId": "97303bbfced84bcfa189c2cf",
+      "installedDate": "2024-09-18T00:00:00+00:00",
+      "apiKey": "cd6278be53a640cbb199a2dc3235af44"
+    },
+    {
+      "_id": "fda0458539dd46ebb8c77e3e",
+      "ownerName": "Anusha Dissanayake",
+      "address": "No. 86, Road 8, Galle",
+      "capacityKw": 8,
+      "meterId": "MTR-GAL-92960",
+      "substationId": "97303bbfced84bcfa189c2cf",
+      "installedDate": "2024-11-13T00:00:00+00:00",
+      "apiKey": "e5132887975e409ba0476ce59222c750"
+    },
+    {
+      "_id": "ac391dc2b2aa45ceaf57db76",
+      "ownerName": "Anusha Jayasuriya",
+      "address": "No. 7, Road 8, Galle",
+      "capacityKw": 10,
+      "meterId": "MTR-GAL-36100",
+      "substationId": "601207d18d6b4f02945d7597",
+      "installedDate": "2024-03-16T00:00:00+00:00",
+      "apiKey": "b6a6e425792c4f76810b220bee85509a"
+    },
+    {
+      "_id": "2962f6eb74cb43a9b9868045",
+      "ownerName": "Dilani Karunaratne",
+      "address": "No. 107, Lane 13, Galle",
+      "capacityKw": 10,
+      "meterId": "MTR-GAL-19545",
+      "substationId": "601207d18d6b4f02945d7597",
+      "installedDate": "2024-08-21T00:00:00+00:00",
+      "apiKey": "8532e46e1e1347718bb5245e4f8f1c21"
+    },
+    {
+      "_id": "f0338a8633eb46bfaa6a399c",
+      "ownerName": "Dilani Rajapaksa",
+      "address": "No. 177, Road 4, Galle",
+      "capacityKw": 4,
+      "meterId": "MTR-GAL-29342",
+      "substationId": "601207d18d6b4f02945d7597",
+      "installedDate": "2024-12-01T00:00:00+00:00",
+      "apiKey": "6640de7a93db4ac798f2ae34d0604bd3"
+    },
+    {
+      "_id": "ca18f56c576d49fba5f3fa34",
+      "ownerName": "Tharindu Rajapaksa",
+      "address": "No. 246, Place 2, Galle",
+      "capacityKw": 4,
+      "meterId": "MTR-GAL-33053",
+      "substationId": "601207d18d6b4f02945d7597",
+      "installedDate": "2025-02-15T00:00:00+00:00",
+      "apiKey": "e3f220ca435b4ce29e2ca771dc451372"
+    },
+    {
+      "_id": "d35f837b6b8e4348a834b818",
+      "ownerName": "Saman Jayasuriya",
+      "address": "No. 35, Place 17, Galle",
+      "capacityKw": 10,
+      "meterId": "MTR-GAL-25906",
+      "substationId": "601207d18d6b4f02945d7597",
+      "installedDate": "2024-08-21T00:00:00+00:00",
+      "apiKey": "3e0f4758a66c47c6920fcdff04756e16"
+    },
+    {
+      "_id": "183a92a063a24f42ab7877c4",
+      "ownerName": "Saman Karunaratne",
+      "address": "No. 209, Place 18, Galle",
+      "capacityKw": 5,
+      "meterId": "MTR-GAL-68008",
+      "substationId": "601207d18d6b4f02945d7597",
+      "installedDate": "2024-11-09T00:00:00+00:00",
+      "apiKey": "9d783f08ad9740ffae6b1e1861a1964b"
+    },
+    {
+      "_id": "8e6edb43ff3a4125b23d1981",
+      "ownerName": "Dilani Silva",
+      "address": "No. 67, Lane 9, Galle",
+      "capacityKw": 8,
+      "meterId": "MTR-GAL-72216",
+      "substationId": "601207d18d6b4f02945d7597",
+      "installedDate": "2024-08-18T00:00:00+00:00",
+      "apiKey": "dc5cf7ef9e99483496e5291ea6e00981"
+    },
+    {
+      "_id": "726460e603aa48e1b43d042e",
+      "ownerName": "Tharindu Dissanayake",
+      "address": "No. 71, Place 3, Galle",
+      "capacityKw": 5.5,
+      "meterId": "MTR-GAL-92149",
+      "substationId": "601207d18d6b4f02945d7597",
+      "installedDate": "2024-05-02T00:00:00+00:00",
+      "apiKey": "dc8be7a3823e4cb3a75db88002186791"
+    },
+    {
+      "_id": "931f8ca5760c4092b3b71d5c",
+      "ownerName": "Anusha Jayasuriya",
+      "address": "No. 229, Road 5, Matara",
+      "capacityKw": 5,
+      "meterId": "MTR-MAT-54020",
+      "substationId": "c4cf65f74a244583aa1a6192",
+      "installedDate": "2024-06-12T00:00:00+00:00",
+      "apiKey": "50ee5b0542ac40bb8d5e0c1f48e74c06"
+    },
+    {
+      "_id": "a30d85b1b41f4a28a7bc15d3",
+      "ownerName": "Kamal Jayasuriya",
+      "address": "No. 55, Road 14, Matara",
+      "capacityKw": 5.5,
+      "meterId": "MTR-MAT-30028",
+      "substationId": "c4cf65f74a244583aa1a6192",
+      "installedDate": "2024-12-27T00:00:00+00:00",
+      "apiKey": "cf47addecb2740758b709e90844fbe7c"
+    },
+    {
+      "_id": "d8f99347ade84604936fca3f",
+      "ownerName": "Chamari Wickramasinghe",
+      "address": "No. 16, Lane 14, Matara",
+      "capacityKw": 6,
+      "meterId": "MTR-MAT-71069",
+      "substationId": "c4cf65f74a244583aa1a6192",
+      "installedDate": "2024-07-31T00:00:00+00:00",
+      "apiKey": "b8a731d5bdc144f5992b224ef9c876b8"
+    },
+    {
+      "_id": "3b33460ef5424a04b201b48f",
+      "ownerName": "Chamari Karunaratne",
+      "address": "No. 226, Place 16, Matara",
+      "capacityKw": 8,
+      "meterId": "MTR-MAT-12560",
+      "substationId": "c4cf65f74a244583aa1a6192",
+      "installedDate": "2025-03-14T00:00:00+00:00",
+      "apiKey": "8a70cad8ef394ded863b85910a08ca24"
+    },
+    {
+      "_id": "be15d2cfddb3466b9b97463c",
+      "ownerName": "Nimal Wickramasinghe",
+      "address": "No. 229, Place 18, Matara",
+      "capacityKw": 5,
+      "meterId": "MTR-MAT-61116",
+      "substationId": "c4cf65f74a244583aa1a6192",
+      "installedDate": "2025-03-12T00:00:00+00:00",
+      "apiKey": "b0b1953ae0f14532957dd64f0ff6234c"
+    },
+    {
+      "_id": "56623af885324e5ea23813ec",
+      "ownerName": "Nadeeka Dissanayake",
+      "address": "No. 57, Place 8, Matara",
+      "capacityKw": 10,
+      "meterId": "MTR-MAT-89069",
+      "substationId": "c4cf65f74a244583aa1a6192",
+      "installedDate": "2025-04-04T00:00:00+00:00",
+      "apiKey": "902a26b89ec0409493e1451acd7644c9"
+    },
+    {
+      "_id": "5b039a87350a4b198fedfe90",
+      "ownerName": "Anusha Rajapaksa",
+      "address": "No. 87, Place 6, Matara",
+      "capacityKw": 5.5,
+      "meterId": "MTR-MAT-13804",
+      "substationId": "c4cf65f74a244583aa1a6192",
+      "installedDate": "2024-07-18T00:00:00+00:00",
+      "apiKey": "ff0fa4bc052449fa8e662309f910c1e4"
+    },
+    {
+      "_id": "a779c0e924844dfdb745c4ab",
+      "ownerName": "Malsha Gunawardena",
+      "address": "No. 7, Place 19, Matara",
+      "capacityKw": 4,
+      "meterId": "MTR-MAT-91560",
+      "substationId": "c4cf65f74a244583aa1a6192",
+      "installedDate": "2024-09-30T00:00:00+00:00",
+      "apiKey": "6d5f00dba54647e9bdc6c54c976bb17a"
+    },
+    {
+      "_id": "8204103ea88c4b1ea0b36454",
+      "ownerName": "Ishara Perera",
+      "address": "No. 35, Place 6, Hambantota",
+      "capacityKw": 3,
+      "meterId": "MTR-HAM-94246",
+      "substationId": "78bd003752a04a0484a65c53",
+      "installedDate": "2024-08-07T00:00:00+00:00",
+      "apiKey": "9b653af42a3343bfb2a0ab79fed2fc54"
+    },
+    {
+      "_id": "db76304cbf604b77a56c1247",
+      "ownerName": "Nimal Bandara",
+      "address": "No. 117, Mawatha 11, Hambantota",
+      "capacityKw": 5.5,
+      "meterId": "MTR-HAM-52906",
+      "substationId": "78bd003752a04a0484a65c53",
+      "installedDate": "2024-04-18T00:00:00+00:00",
+      "apiKey": "3ec574d7276f4e0bbd8bde10f8eb52f4"
+    },
+    {
+      "_id": "575ba6925fcf4cdca8f1a9ee",
+      "ownerName": "Tharindu Rajapaksa",
+      "address": "No. 214, Road 16, Hambantota",
+      "capacityKw": 5,
+      "meterId": "MTR-HAM-65255",
+      "substationId": "78bd003752a04a0484a65c53",
+      "installedDate": "2024-05-09T00:00:00+00:00",
+      "apiKey": "a8d68c917765407494945caaab01f602"
+    },
+    {
+      "_id": "9cbe40f79f3f4aea86ef2c69",
+      "ownerName": "Nimal Dissanayake",
+      "address": "No. 167, Road 2, Hambantota",
+      "capacityKw": 3,
+      "meterId": "MTR-HAM-55870",
+      "substationId": "78bd003752a04a0484a65c53",
+      "installedDate": "2024-04-24T00:00:00+00:00",
+      "apiKey": "49d0645f7fbd46e288183d6fe3d8af0d"
+    },
+    {
+      "_id": "a1c7e8f732234033b2b818df",
+      "ownerName": "Tharindu Perera",
+      "address": "No. 6, Lane 8, Hambantota",
+      "capacityKw": 4,
+      "meterId": "MTR-HAM-36130",
+      "substationId": "78bd003752a04a0484a65c53",
+      "installedDate": "2025-03-05T00:00:00+00:00",
+      "apiKey": "74a3ac9d422e4e71b0cfe99604e976f3"
+    },
+    {
+      "_id": "356bda8c161c4fa1aea0e656",
+      "ownerName": "Kamal Gunawardena",
+      "address": "No. 243, Lane 15, Hambantota",
+      "capacityKw": 8,
+      "meterId": "MTR-HAM-24993",
+      "substationId": "78bd003752a04a0484a65c53",
+      "installedDate": "2024-10-15T00:00:00+00:00",
+      "apiKey": "02cb9f5eb30d4885ae44726ebaae683b"
+    },
+    {
+      "_id": "cbb1942c17bb4b129b409df6",
+      "ownerName": "Nadeeka Bandara",
+      "address": "No. 156, Road 6, Hambantota",
+      "capacityKw": 10,
+      "meterId": "MTR-HAM-58351",
+      "substationId": "78bd003752a04a0484a65c53",
+      "installedDate": "2024-03-26T00:00:00+00:00",
+      "apiKey": "2f29dcedd37f4decaca764430c72a259"
+    },
+    {
+      "_id": "3c194871522d45faa04f9c9a",
+      "ownerName": "Anusha Fernando",
+      "address": "No. 80, Place 13, Hambantota",
+      "capacityKw": 6,
+      "meterId": "MTR-HAM-13365",
+      "substationId": "78bd003752a04a0484a65c53",
+      "installedDate": "2025-04-20T00:00:00+00:00",
+      "apiKey": "178aaeeba23941d59fe09d4dd887aff0"
+    },
+    {
+      "_id": "7668e583f7424d829df935e0",
+      "ownerName": "Priya Fernando",
+      "address": "No. 27, Mawatha 20, Jaffna",
+      "capacityKw": 6,
+      "meterId": "MTR-JAF-92213",
+      "substationId": "e75138c8860c452d8e3302aa",
+      "installedDate": "2024-05-04T00:00:00+00:00",
+      "apiKey": "aa71d034409348ecb2051a1730158669"
+    },
+    {
+      "_id": "a8aad8531f6a41f7b6eae7be",
+      "ownerName": "Tharindu Fernando",
+      "address": "No. 11, Mawatha 18, Jaffna",
+      "capacityKw": 10,
+      "meterId": "MTR-JAF-84177",
+      "substationId": "e75138c8860c452d8e3302aa",
+      "installedDate": "2025-02-04T00:00:00+00:00",
+      "apiKey": "0a8e6e4b1f7a456ab821890f23f2d526"
+    },
+    {
+      "_id": "59e887e69ea5411b96e71296",
+      "ownerName": "Chamari Wickramasinghe",
+      "address": "No. 88, Road 14, Jaffna",
+      "capacityKw": 3,
+      "meterId": "MTR-JAF-76317",
+      "substationId": "e75138c8860c452d8e3302aa",
+      "installedDate": "2024-11-27T00:00:00+00:00",
+      "apiKey": "3afa2f208d82479588603a37260cc3cc"
+    },
+    {
+      "_id": "62130ab30e00421d8138dede",
+      "ownerName": "Malsha Gunawardena",
+      "address": "No. 93, Place 5, Jaffna",
+      "capacityKw": 3,
+      "meterId": "MTR-JAF-66822",
+      "substationId": "e75138c8860c452d8e3302aa",
+      "installedDate": "2025-05-06T00:00:00+00:00",
+      "apiKey": "9fe8b8860c9746339348b19e62fa8fb4"
+    },
+    {
+      "_id": "baab391a3f16458394890ded",
+      "ownerName": "Chamari Silva",
+      "address": "No. 167, Mawatha 20, Jaffna",
+      "capacityKw": 8,
+      "meterId": "MTR-JAF-78386",
+      "substationId": "e75138c8860c452d8e3302aa",
+      "installedDate": "2025-05-09T00:00:00+00:00",
+      "apiKey": "e0c7888cd3ad433285337d91becf252d"
+    },
+    {
+      "_id": "55a322b1418d49a998ca490a",
+      "ownerName": "Tharindu Dissanayake",
+      "address": "No. 112, Mawatha 11, Jaffna",
+      "capacityKw": 10,
+      "meterId": "MTR-JAF-73372",
+      "substationId": "e75138c8860c452d8e3302aa",
+      "installedDate": "2024-08-26T00:00:00+00:00",
+      "apiKey": "0642ae0b08e24d60869011b3670e940c"
+    },
+    {
+      "_id": "4089d6fa98644bd28e639e4d",
+      "ownerName": "Malsha Jayasuriya",
+      "address": "No. 226, Place 8, Jaffna",
+      "capacityKw": 10,
+      "meterId": "MTR-JAF-21359",
+      "substationId": "e75138c8860c452d8e3302aa",
+      "installedDate": "2024-05-22T00:00:00+00:00",
+      "apiKey": "876b440c58f64b568483fbf349d52e65"
+    },
+    {
+      "_id": "c4d14661fde941e797d49259",
+      "ownerName": "Tharindu Gunawardena",
+      "address": "No. 98, Mawatha 1, Jaffna",
+      "capacityKw": 6,
+      "meterId": "MTR-JAF-89997",
+      "substationId": "e75138c8860c452d8e3302aa",
+      "installedDate": "2024-12-08T00:00:00+00:00",
+      "apiKey": "a09f29c6e89a41df91510b104e546382"
+    },
+    {
+      "_id": "03300a929b4c4defa85a723a",
+      "ownerName": "Malsha Wickramasinghe",
+      "address": "No. 91, Mawatha 11, Kilinochchi",
+      "capacityKw": 4,
+      "meterId": "MTR-KIL-73904",
+      "substationId": "3b7901e358d44c789164f76d",
+      "installedDate": "2024-04-18T00:00:00+00:00",
+      "apiKey": "a513f4ea36674fa5bdecf23cfbaa0b18"
+    },
+    {
+      "_id": "28e043a8ad354caba17aa01c",
+      "ownerName": "Anusha Karunaratne",
+      "address": "No. 3, Lane 3, Kilinochchi",
+      "capacityKw": 8,
+      "meterId": "MTR-KIL-46211",
+      "substationId": "3b7901e358d44c789164f76d",
+      "installedDate": "2024-10-11T00:00:00+00:00",
+      "apiKey": "4d09d03ca23f49ec8514bba09b4d634c"
+    },
+    {
+      "_id": "97d5c4d04af343069d5dfd39",
+      "ownerName": "Priya Rajapaksa",
+      "address": "No. 62, Place 16, Kilinochchi",
+      "capacityKw": 5.5,
+      "meterId": "MTR-KIL-82768",
+      "substationId": "3b7901e358d44c789164f76d",
+      "installedDate": "2025-01-23T00:00:00+00:00",
+      "apiKey": "8451e62e9bc44b419ab94a17d9405562"
+    },
+    {
+      "_id": "cfdbfdfda7434e52bfa4f8f1",
+      "ownerName": "Dilani Perera",
+      "address": "No. 104, Lane 10, Kilinochchi",
+      "capacityKw": 3,
+      "meterId": "MTR-KIL-48566",
+      "substationId": "3b7901e358d44c789164f76d",
+      "installedDate": "2024-04-23T00:00:00+00:00",
+      "apiKey": "2267877e24a741e7b24907a3febe3a36"
+    },
+    {
+      "_id": "48a6199d4a6043bdb03f1359",
+      "ownerName": "Ishara Karunaratne",
+      "address": "No. 136, Mawatha 14, Kilinochchi",
+      "capacityKw": 5,
+      "meterId": "MTR-KIL-72031",
+      "substationId": "3b7901e358d44c789164f76d",
+      "installedDate": "2024-10-10T00:00:00+00:00",
+      "apiKey": "9e406f6eade2427d8710f45105744555"
+    },
+    {
+      "_id": "e6f39cb7f2f44faf8dbef46e",
+      "ownerName": "Nadeeka Dissanayake",
+      "address": "No. 117, Mawatha 10, Kilinochchi",
+      "capacityKw": 5,
+      "meterId": "MTR-KIL-56112",
+      "substationId": "3b7901e358d44c789164f76d",
+      "installedDate": "2024-12-25T00:00:00+00:00",
+      "apiKey": "dee74e0c2f8747f8b6044668016eb59a"
+    },
+    {
+      "_id": "67385306af4f494d84a7baa1",
+      "ownerName": "Anusha Jayasuriya",
+      "address": "No. 31, Lane 7, Kilinochchi",
+      "capacityKw": 3,
+      "meterId": "MTR-KIL-35242",
+      "substationId": "3b7901e358d44c789164f76d",
+      "installedDate": "2024-06-10T00:00:00+00:00",
+      "apiKey": "34c36d3bbf744836ae3aec154559e647"
+    },
+    {
+      "_id": "b9b07e19cd5c40e686436409",
+      "ownerName": "Nadeeka Gunawardena",
+      "address": "No. 195, Mawatha 4, Mannar",
+      "capacityKw": 5,
+      "meterId": "MTR-MAN-87278",
+      "substationId": "17f8ae37df1044058e771eac",
+      "installedDate": "2025-05-15T00:00:00+00:00",
+      "apiKey": "a2e2e00f94c84633b7bec0bd2c702205"
+    },
+    {
+      "_id": "218b5e98657e4bb5a977b74b",
+      "ownerName": "Malsha Jayasuriya",
+      "address": "No. 46, Mawatha 1, Mannar",
+      "capacityKw": 5,
+      "meterId": "MTR-MAN-39816",
+      "substationId": "17f8ae37df1044058e771eac",
+      "installedDate": "2024-07-03T00:00:00+00:00",
+      "apiKey": "54d8b244327a4cbfa20095d53b4cd793"
+    },
+    {
+      "_id": "0429aa2ebe5941a282fdb5f4",
+      "ownerName": "Nadeeka Dissanayake",
+      "address": "No. 250, Road 18, Mannar",
+      "capacityKw": 4,
+      "meterId": "MTR-MAN-45954",
+      "substationId": "17f8ae37df1044058e771eac",
+      "installedDate": "2024-01-24T00:00:00+00:00",
+      "apiKey": "731198026fe246f2aac90d43410d5548"
+    },
+    {
+      "_id": "855bfebd82354c93b0083c79",
+      "ownerName": "Anusha Silva",
+      "address": "No. 224, Road 19, Mannar",
+      "capacityKw": 8,
+      "meterId": "MTR-MAN-74340",
+      "substationId": "17f8ae37df1044058e771eac",
+      "installedDate": "2024-02-22T00:00:00+00:00",
+      "apiKey": "7335d905e3694988b3b67fcf69692b01"
+    },
+    {
+      "_id": "56742233dc4c4c2090d329b1",
+      "ownerName": "Anusha Gunawardena",
+      "address": "No. 48, Road 9, Mannar",
+      "capacityKw": 5.5,
+      "meterId": "MTR-MAN-67733",
+      "substationId": "17f8ae37df1044058e771eac",
+      "installedDate": "2024-06-23T00:00:00+00:00",
+      "apiKey": "d2182783b3aa43a69e770d559b8a1595"
+    },
+    {
+      "_id": "d9d06a4d0863461880ff3938",
+      "ownerName": "Malsha Gunawardena",
+      "address": "No. 126, Road 19, Mannar",
+      "capacityKw": 3,
+      "meterId": "MTR-MAN-18564",
+      "substationId": "17f8ae37df1044058e771eac",
+      "installedDate": "2024-07-24T00:00:00+00:00",
+      "apiKey": "9abb0cb126174eed8f1f52219183bbe1"
+    },
+    {
+      "_id": "769766292f9e4daabcc3e5ca",
+      "ownerName": "Ishara Perera",
+      "address": "No. 145, Mawatha 3, Vavuniya",
+      "capacityKw": 4,
+      "meterId": "MTR-VAV-29555",
+      "substationId": "6d79ced70ed248ffaca3e039",
+      "installedDate": "2025-02-19T00:00:00+00:00",
+      "apiKey": "1d13c811da7a4c7abb4e064fb9639d65"
+    },
+    {
+      "_id": "f8c51bd71f2f476d937b081b",
+      "ownerName": "Priya Fernando",
+      "address": "No. 153, Lane 17, Vavuniya",
+      "capacityKw": 6,
+      "meterId": "MTR-VAV-64548",
+      "substationId": "6d79ced70ed248ffaca3e039",
+      "installedDate": "2024-11-06T00:00:00+00:00",
+      "apiKey": "99f0bc9faf184afdb636e487d2093354"
+    },
+    {
+      "_id": "9d7fa670596346029ca4a761",
+      "ownerName": "Chamari Gunawardena",
+      "address": "No. 151, Place 10, Vavuniya",
+      "capacityKw": 5.5,
+      "meterId": "MTR-VAV-48974",
+      "substationId": "6d79ced70ed248ffaca3e039",
+      "installedDate": "2025-03-16T00:00:00+00:00",
+      "apiKey": "2e0d04768ede4ab1b956ee2841bf7fef"
+    },
+    {
+      "_id": "3490c6325dd349878aac732f",
+      "ownerName": "Kasun Karunaratne",
+      "address": "No. 190, Road 7, Vavuniya",
+      "capacityKw": 3,
+      "meterId": "MTR-VAV-89905",
+      "substationId": "6d79ced70ed248ffaca3e039",
+      "installedDate": "2025-05-06T00:00:00+00:00",
+      "apiKey": "52b35e98e3994b1e8585918f4c0b17f5"
+    },
+    {
+      "_id": "f71aaa0141b0460ebf10c704",
+      "ownerName": "Ishara Jayasuriya",
+      "address": "No. 41, Lane 6, Vavuniya",
+      "capacityKw": 5,
+      "meterId": "MTR-VAV-96563",
+      "substationId": "6d79ced70ed248ffaca3e039",
+      "installedDate": "2024-02-11T00:00:00+00:00",
+      "apiKey": "489dad8cc9de4cd4a0fbf297127ed327"
+    },
+    {
+      "_id": "5a2d472297ba4e37941727c5",
+      "ownerName": "Saman Fernando",
+      "address": "No. 116, Place 10, Vavuniya",
+      "capacityKw": 4,
+      "meterId": "MTR-VAV-10350",
+      "substationId": "6d79ced70ed248ffaca3e039",
+      "installedDate": "2024-07-28T00:00:00+00:00",
+      "apiKey": "ca0579b8b67548da9c8d4841e76ee4d8"
+    },
+    {
+      "_id": "8572acb7052148efa015b8c8",
+      "ownerName": "Nimal Jayasuriya",
+      "address": "No. 221, Place 3, Vavuniya",
+      "capacityKw": 5,
+      "meterId": "MTR-VAV-47056",
+      "substationId": "6d79ced70ed248ffaca3e039",
+      "installedDate": "2024-12-25T00:00:00+00:00",
+      "apiKey": "341315441b584b2b8fde2c6e5453eef5"
+    },
+    {
+      "_id": "2f5ba774224a4f74bc80ab1f",
+      "ownerName": "Ishara Jayasuriya",
+      "address": "No. 170, Lane 14, Vavuniya",
+      "capacityKw": 5,
+      "meterId": "MTR-VAV-91927",
+      "substationId": "6d79ced70ed248ffaca3e039",
+      "installedDate": "2024-10-28T00:00:00+00:00",
+      "apiKey": "7c891914493049909e5118b01222c55a"
+    },
+    {
+      "_id": "14c026a4efce4767ba171e1c",
+      "ownerName": "Saman Jayasuriya",
+      "address": "No. 69, Lane 3, Mullaitivu",
+      "capacityKw": 8,
+      "meterId": "MTR-MUL-29528",
+      "substationId": "ed3bfade6a3f4fa48b0b8b62",
+      "installedDate": "2025-04-10T00:00:00+00:00",
+      "apiKey": "ba41a4434098440dbc5a1512c016b50a"
+    },
+    {
+      "_id": "3e6c3606aa664f2eb779e691",
+      "ownerName": "Nimal Silva",
+      "address": "No. 192, Mawatha 15, Mullaitivu",
+      "capacityKw": 10,
+      "meterId": "MTR-MUL-50319",
+      "substationId": "ed3bfade6a3f4fa48b0b8b62",
+      "installedDate": "2024-10-31T00:00:00+00:00",
+      "apiKey": "6ffe7d73ed204e24a501c8efe602a132"
+    },
+    {
+      "_id": "5290ace7dbb9428e8768c963",
+      "ownerName": "Sunil Gunawardena",
+      "address": "No. 104, Mawatha 17, Mullaitivu",
+      "capacityKw": 8,
+      "meterId": "MTR-MUL-49857",
+      "substationId": "ed3bfade6a3f4fa48b0b8b62",
+      "installedDate": "2024-12-24T00:00:00+00:00",
+      "apiKey": "5a27d2f3e07c407aa557c40f60aa22f3"
+    },
+    {
+      "_id": "3626a60af1dd42f19640b333",
+      "ownerName": "Saman Gunawardena",
+      "address": "No. 11, Place 11, Mullaitivu",
+      "capacityKw": 5.5,
+      "meterId": "MTR-MUL-20543",
+      "substationId": "ed3bfade6a3f4fa48b0b8b62",
+      "installedDate": "2024-11-02T00:00:00+00:00",
+      "apiKey": "c2caa4f8f0724214a130d498ef15d2b7"
+    },
+    {
+      "_id": "8cdeffb726e540309d07d9d9",
+      "ownerName": "Kasun Bandara",
+      "address": "No. 247, Road 9, Mullaitivu",
+      "capacityKw": 3,
+      "meterId": "MTR-MUL-21970",
+      "substationId": "ed3bfade6a3f4fa48b0b8b62",
+      "installedDate": "2024-04-27T00:00:00+00:00",
+      "apiKey": "0cefaee7837b480b8d336fa83970e00a"
+    },
+    {
+      "_id": "06afc927c1f94bef8b959fc0",
+      "ownerName": "Kasun Perera",
+      "address": "No. 133, Place 9, Mullaitivu",
+      "capacityKw": 10,
+      "meterId": "MTR-MUL-32962",
+      "substationId": "ed3bfade6a3f4fa48b0b8b62",
+      "installedDate": "2024-08-28T00:00:00+00:00",
+      "apiKey": "c3250b0d49a643dd8fa76c1cb39df8b9"
+    },
+    {
+      "_id": "ef1ac8965c504298a0c75ac4",
+      "ownerName": "Kasun Rajapaksa",
+      "address": "No. 24, Place 12, Ampara",
+      "capacityKw": 8,
+      "meterId": "MTR-AMP-74451",
+      "substationId": "043602662d7847969ec27b6c",
+      "installedDate": "2025-05-11T00:00:00+00:00",
+      "apiKey": "db4919018d4249879ae4bec6aa461077"
+    },
+    {
+      "_id": "4f68c79644c74ad78982fdbc",
+      "ownerName": "Chamari Wickramasinghe",
+      "address": "No. 220, Lane 11, Ampara",
+      "capacityKw": 5,
+      "meterId": "MTR-AMP-97835",
+      "substationId": "043602662d7847969ec27b6c",
+      "installedDate": "2024-02-23T00:00:00+00:00",
+      "apiKey": "6e07fd3d96bb4dbeaac4cbabf205e203"
+    },
+    {
+      "_id": "120c7485a31d41348f65fd90",
+      "ownerName": "Chamari Gunawardena",
+      "address": "No. 103, Road 15, Ampara",
+      "capacityKw": 5,
+      "meterId": "MTR-AMP-96846",
+      "substationId": "043602662d7847969ec27b6c",
+      "installedDate": "2025-04-28T00:00:00+00:00",
+      "apiKey": "bccca24ea408464c92099c4499d88224"
+    },
+    {
+      "_id": "dc4254d9592141d0833400a0",
+      "ownerName": "Sunil Wickramasinghe",
+      "address": "No. 249, Place 17, Ampara",
+      "capacityKw": 5,
+      "meterId": "MTR-AMP-52372",
+      "substationId": "043602662d7847969ec27b6c",
+      "installedDate": "2024-02-29T00:00:00+00:00",
+      "apiKey": "1e622b10a4c4495187c6cfd944f79380"
+    },
+    {
+      "_id": "089d044ecec948d5b2a4ec1f",
+      "ownerName": "Malsha Perera",
+      "address": "No. 106, Road 7, Ampara",
+      "capacityKw": 8,
+      "meterId": "MTR-AMP-81118",
+      "substationId": "043602662d7847969ec27b6c",
+      "installedDate": "2024-08-24T00:00:00+00:00",
+      "apiKey": "13116cbe918b4368a053f1e556af9d19"
+    },
+    {
+      "_id": "3a45eb284e2446d1a8464d43",
+      "ownerName": "Saman Wickramasinghe",
+      "address": "No. 114, Road 7, Ampara",
+      "capacityKw": 6,
+      "meterId": "MTR-AMP-75338",
+      "substationId": "043602662d7847969ec27b6c",
+      "installedDate": "2024-11-16T00:00:00+00:00",
+      "apiKey": "42e279acf5e04009be5767b14e0254cf"
+    },
+    {
+      "_id": "9e45517421f34f25b66d330c",
+      "ownerName": "Saman Silva",
+      "address": "No. 179, Place 4, Batticaloa",
+      "capacityKw": 5,
+      "meterId": "MTR-BAT-67424",
+      "substationId": "9e6cf46ddfb845519f8bd991",
+      "installedDate": "2025-03-26T00:00:00+00:00",
+      "apiKey": "125cb09a611d4ff09b747a9fc5399860"
+    },
+    {
+      "_id": "bed315c0b3614400853ac208",
+      "ownerName": "Nimal Karunaratne",
+      "address": "No. 41, Mawatha 18, Batticaloa",
+      "capacityKw": 10,
+      "meterId": "MTR-BAT-41365",
+      "substationId": "9e6cf46ddfb845519f8bd991",
+      "installedDate": "2024-12-29T00:00:00+00:00",
+      "apiKey": "6fd1b8d09f9b4e82af23993b898bce0c"
+    },
+    {
+      "_id": "a324ff7dddc4422f801a67ac",
+      "ownerName": "Nimal Dissanayake",
+      "address": "No. 216, Road 15, Batticaloa",
+      "capacityKw": 5.5,
+      "meterId": "MTR-BAT-22217",
+      "substationId": "9e6cf46ddfb845519f8bd991",
+      "installedDate": "2024-04-25T00:00:00+00:00",
+      "apiKey": "751feaa6d0ce4e6fbab33d984309bb59"
+    },
+    {
+      "_id": "c14af795bf5840c3a55a623f",
+      "ownerName": "Sunil Silva",
+      "address": "No. 181, Mawatha 14, Batticaloa",
+      "capacityKw": 5.5,
+      "meterId": "MTR-BAT-48254",
+      "substationId": "9e6cf46ddfb845519f8bd991",
+      "installedDate": "2024-09-17T00:00:00+00:00",
+      "apiKey": "5c2a0dce886343adb98ddd68e21c7c27"
+    },
+    {
+      "_id": "757d174404144d69a9419b19",
+      "ownerName": "Malsha Gunawardena",
+      "address": "No. 142, Lane 13, Batticaloa",
+      "capacityKw": 5.5,
+      "meterId": "MTR-BAT-41946",
+      "substationId": "9e6cf46ddfb845519f8bd991",
+      "installedDate": "2024-08-21T00:00:00+00:00",
+      "apiKey": "98038bfffcc743758a60530d892fe30b"
+    },
+    {
+      "_id": "d8500ceae5394c3d939a27f5",
+      "ownerName": "Priya Karunaratne",
+      "address": "No. 18, Mawatha 14, Batticaloa",
+      "capacityKw": 6,
+      "meterId": "MTR-BAT-27892",
+      "substationId": "9e6cf46ddfb845519f8bd991",
+      "installedDate": "2025-03-18T00:00:00+00:00",
+      "apiKey": "1f51d151b4d5498b94dce7733db938d6"
+    },
+    {
+      "_id": "f4d812db7ce1494c824147e1",
+      "ownerName": "Ruwan Dissanayake",
+      "address": "No. 186, Mawatha 19, Batticaloa",
+      "capacityKw": 5,
+      "meterId": "MTR-BAT-10336",
+      "substationId": "9e6cf46ddfb845519f8bd991",
+      "installedDate": "2024-05-24T00:00:00+00:00",
+      "apiKey": "060c4fcb0cd648dca033a50156b6282d"
+    },
+    {
+      "_id": "07d34ec35ff04226bce14fc4",
+      "ownerName": "Ishara Gunawardena",
+      "address": "No. 138, Place 12, Trincomalee",
+      "capacityKw": 10,
+      "meterId": "MTR-TRI-29476",
+      "substationId": "8030aa9452894e0fab27e47e",
+      "installedDate": "2024-08-16T00:00:00+00:00",
+      "apiKey": "3254baac1e274a40b57336ed26e7a866"
+    },
+    {
+      "_id": "1ef8701b59a64afa848fb204",
+      "ownerName": "Ruwan Dissanayake",
+      "address": "No. 117, Mawatha 7, Trincomalee",
+      "capacityKw": 10,
+      "meterId": "MTR-TRI-81228",
+      "substationId": "8030aa9452894e0fab27e47e",
+      "installedDate": "2024-07-12T00:00:00+00:00",
+      "apiKey": "2defe8b372d94da49ab37a4f642043aa"
+    },
+    {
+      "_id": "956689a4613a4bc88587a2fe",
+      "ownerName": "Nadeeka Jayasuriya",
+      "address": "No. 220, Place 2, Trincomalee",
+      "capacityKw": 6,
+      "meterId": "MTR-TRI-60196",
+      "substationId": "8030aa9452894e0fab27e47e",
+      "installedDate": "2024-04-29T00:00:00+00:00",
+      "apiKey": "f41c701c6a234fab9175c947e1282d25"
+    },
+    {
+      "_id": "e8d65cfc756944d59b2e577b",
+      "ownerName": "Ruwan Gunawardena",
+      "address": "No. 170, Lane 16, Trincomalee",
+      "capacityKw": 8,
+      "meterId": "MTR-TRI-59968",
+      "substationId": "8030aa9452894e0fab27e47e",
+      "installedDate": "2024-07-16T00:00:00+00:00",
+      "apiKey": "62b98de66ed44d4184e05b6309dadf12"
+    },
+    {
+      "_id": "9ce49fdffe71413daf197783",
+      "ownerName": "Nimal Silva",
+      "address": "No. 223, Road 15, Trincomalee",
+      "capacityKw": 6,
+      "meterId": "MTR-TRI-87356",
+      "substationId": "8030aa9452894e0fab27e47e",
+      "installedDate": "2024-06-18T00:00:00+00:00",
+      "apiKey": "06e6d16379db4dffb2c4046f1963dc6d"
+    },
+    {
+      "_id": "e50e79b6b95d477ea08ef3d8",
+      "ownerName": "Sunil Dissanayake",
+      "address": "No. 37, Place 5, Trincomalee",
+      "capacityKw": 5.5,
+      "meterId": "MTR-TRI-12011",
+      "substationId": "8030aa9452894e0fab27e47e",
+      "installedDate": "2025-01-04T00:00:00+00:00",
+      "apiKey": "2579a748d70143109ee3ec71477df90b"
+    },
+    {
+      "_id": "d4d09c7ac9c24cd3be641710",
+      "ownerName": "Sunil Gunawardena",
+      "address": "No. 160, Place 3, Trincomalee",
+      "capacityKw": 10,
+      "meterId": "MTR-TRI-44737",
+      "substationId": "8030aa9452894e0fab27e47e",
+      "installedDate": "2024-06-22T00:00:00+00:00",
+      "apiKey": "558fe4c1626d415eab55af54a34993a9"
+    },
+    {
+      "_id": "9d737857f6dd4ccabf09ce03",
+      "ownerName": "Malsha Wickramasinghe",
+      "address": "No. 137, Place 11, Trincomalee",
+      "capacityKw": 10,
+      "meterId": "MTR-TRI-98389",
+      "substationId": "8030aa9452894e0fab27e47e",
+      "installedDate": "2025-03-15T00:00:00+00:00",
+      "apiKey": "e6505deaa31c4d9eb704ed1510cbc6bc"
+    },
+    {
+      "_id": "18a7f2b7e5964008b07971b2",
+      "ownerName": "Nadeeka Gunawardena",
+      "address": "No. 159, Road 8, Kurunegala",
+      "capacityKw": 10,
+      "meterId": "MTR-KUR-80912",
+      "substationId": "018d8fbcc554497c82a433e7",
+      "installedDate": "2024-01-19T00:00:00+00:00",
+      "apiKey": "6fc50b902f8b4ef384329e8aed2945ff"
+    },
+    {
+      "_id": "537ce9ad63ca4fe0bcc2ad48",
+      "ownerName": "Ishara Bandara",
+      "address": "No. 26, Road 15, Kurunegala",
+      "capacityKw": 4,
+      "meterId": "MTR-KUR-21846",
+      "substationId": "018d8fbcc554497c82a433e7",
+      "installedDate": "2024-08-10T00:00:00+00:00",
+      "apiKey": "be5ca6d68d59472db0934b3b3e7e7a74"
+    },
+    {
+      "_id": "ef31a463d29448339bd8e5de",
+      "ownerName": "Kamal Bandara",
+      "address": "No. 204, Road 10, Kurunegala",
+      "capacityKw": 3,
+      "meterId": "MTR-KUR-16028",
+      "substationId": "018d8fbcc554497c82a433e7",
+      "installedDate": "2024-06-15T00:00:00+00:00",
+      "apiKey": "468d070ade4b420c814b5459fa91e841"
+    },
+    {
+      "_id": "e3992a009f6a4b2aa2cafa0d",
+      "ownerName": "Ruwan Wickramasinghe",
+      "address": "No. 136, Place 19, Kurunegala",
+      "capacityKw": 5.5,
+      "meterId": "MTR-KUR-29080",
+      "substationId": "018d8fbcc554497c82a433e7",
+      "installedDate": "2024-05-05T00:00:00+00:00",
+      "apiKey": "e8a558b28a714d5caa1ca0803769d511"
+    },
+    {
+      "_id": "cdd850c0cb6c4a92af51fefc",
+      "ownerName": "Ishara Silva",
+      "address": "No. 157, Place 20, Kurunegala",
+      "capacityKw": 4,
+      "meterId": "MTR-KUR-32946",
+      "substationId": "018d8fbcc554497c82a433e7",
+      "installedDate": "2024-02-10T00:00:00+00:00",
+      "apiKey": "29a3486452014ce9bdcf23696401356c"
+    },
+    {
+      "_id": "8f9cb6c8a2b6459282456721",
+      "ownerName": "Ishara Jayasuriya",
+      "address": "No. 60, Place 9, Kurunegala",
+      "capacityKw": 5.5,
+      "meterId": "MTR-KUR-86435",
+      "substationId": "018d8fbcc554497c82a433e7",
+      "installedDate": "2024-03-14T00:00:00+00:00",
+      "apiKey": "c237c241834649539584d497fbddf068"
+    },
+    {
+      "_id": "e26ce544d2624300a5fc1bba",
+      "ownerName": "Dilani Bandara",
+      "address": "No. 206, Place 10, Kurunegala",
+      "capacityKw": 8,
+      "meterId": "MTR-KUR-11231",
+      "substationId": "018d8fbcc554497c82a433e7",
+      "installedDate": "2025-04-05T00:00:00+00:00",
+      "apiKey": "7cb28b682d124fee84113e9feb2a58e9"
+    },
+    {
+      "_id": "b6e372a70bf8493fbea2357a",
+      "ownerName": "Ishara Dissanayake",
+      "address": "No. 242, Mawatha 19, Kurunegala",
+      "capacityKw": 4,
+      "meterId": "MTR-KUR-19681",
+      "substationId": "018d8fbcc554497c82a433e7",
+      "installedDate": "2024-08-14T00:00:00+00:00",
+      "apiKey": "5a65975a808d46d9baa96636e19d474c"
+    },
+    {
+      "_id": "89e8af1ea64c476296e4d8e8",
+      "ownerName": "Ishara Rajapaksa",
+      "address": "No. 217, Mawatha 7, Kurunegala",
+      "capacityKw": 8,
+      "meterId": "MTR-KUR-42780",
+      "substationId": "1cad854c8ce643fda280cbf2",
+      "installedDate": "2024-08-21T00:00:00+00:00",
+      "apiKey": "075a7cf92bcb42f6a8b4baff83f84287"
+    },
+    {
+      "_id": "803304fa795840cc87fabdb9",
+      "ownerName": "Chamari Gunawardena",
+      "address": "No. 147, Mawatha 19, Kurunegala",
+      "capacityKw": 3,
+      "meterId": "MTR-KUR-41091",
+      "substationId": "1cad854c8ce643fda280cbf2",
+      "installedDate": "2024-07-14T00:00:00+00:00",
+      "apiKey": "6a42b3a6258a4664beed2a336f71cdd5"
+    },
+    {
+      "_id": "3147edb602f44b4c95cccb4e",
+      "ownerName": "Anusha Bandara",
+      "address": "No. 71, Road 19, Kurunegala",
+      "capacityKw": 3,
+      "meterId": "MTR-KUR-96275",
+      "substationId": "1cad854c8ce643fda280cbf2",
+      "installedDate": "2024-07-21T00:00:00+00:00",
+      "apiKey": "693c340d106740e6b10f2c8da7d4303e"
+    },
+    {
+      "_id": "7faef016a0414f6c9c5747a8",
+      "ownerName": "Malsha Perera",
+      "address": "No. 232, Mawatha 8, Kurunegala",
+      "capacityKw": 6,
+      "meterId": "MTR-KUR-75107",
+      "substationId": "1cad854c8ce643fda280cbf2",
+      "installedDate": "2025-03-02T00:00:00+00:00",
+      "apiKey": "bfb69a1b0af941518047e9b045221e92"
+    },
+    {
+      "_id": "c68241bf17a744d7b1810249",
+      "ownerName": "Kasun Wickramasinghe",
+      "address": "No. 159, Mawatha 5, Kurunegala",
+      "capacityKw": 4,
+      "meterId": "MTR-KUR-93442",
+      "substationId": "1cad854c8ce643fda280cbf2",
+      "installedDate": "2024-04-07T00:00:00+00:00",
+      "apiKey": "77b432b4eadd4971b51efcda155b70de"
+    },
+    {
+      "_id": "a73d2edeae2d4b78968fc7c0",
+      "ownerName": "Ishara Fernando",
+      "address": "No. 80, Place 2, Kurunegala",
+      "capacityKw": 8,
+      "meterId": "MTR-KUR-94717",
+      "substationId": "1cad854c8ce643fda280cbf2",
+      "installedDate": "2024-01-21T00:00:00+00:00",
+      "apiKey": "954bdbc3fb2d44dbb91ac92cb9f7d872"
+    },
+    {
+      "_id": "8302acc81e9a4dd191f4b6c7",
+      "ownerName": "Kasun Wickramasinghe",
+      "address": "No. 233, Mawatha 11, Kurunegala",
+      "capacityKw": 8,
+      "meterId": "MTR-KUR-27224",
+      "substationId": "1cad854c8ce643fda280cbf2",
+      "installedDate": "2024-02-16T00:00:00+00:00",
+      "apiKey": "a54335eda37d4f418c752a8397d392c0"
+    },
+    {
+      "_id": "a548ab37afe64f9393e3d1f2",
+      "ownerName": "Chamari Silva",
+      "address": "No. 139, Mawatha 17, Puttalam",
+      "capacityKw": 4,
+      "meterId": "MTR-PUT-27322",
+      "substationId": "137f8877c0c342799766b3b7",
+      "installedDate": "2025-02-06T00:00:00+00:00",
+      "apiKey": "2e15ef674e204086b3a6a7bcb7af7020"
+    },
+    {
+      "_id": "6b8e6e3e75b34896982ae049",
+      "ownerName": "Saman Bandara",
+      "address": "No. 234, Place 10, Puttalam",
+      "capacityKw": 10,
+      "meterId": "MTR-PUT-31567",
+      "substationId": "137f8877c0c342799766b3b7",
+      "installedDate": "2024-05-11T00:00:00+00:00",
+      "apiKey": "7ed8078e5f594964b3307aedf2217300"
+    },
+    {
+      "_id": "cb8c96cbea4f406f8be1e268",
+      "ownerName": "Nadeeka Wickramasinghe",
+      "address": "No. 247, Road 5, Puttalam",
+      "capacityKw": 10,
+      "meterId": "MTR-PUT-25095",
+      "substationId": "137f8877c0c342799766b3b7",
+      "installedDate": "2024-08-27T00:00:00+00:00",
+      "apiKey": "a0a785fa6bb8498897efe41cd50d30fc"
+    },
+    {
+      "_id": "61104be429aa4bfaa57fcdd3",
+      "ownerName": "Tharindu Jayasuriya",
+      "address": "No. 173, Place 18, Puttalam",
+      "capacityKw": 10,
+      "meterId": "MTR-PUT-98647",
+      "substationId": "137f8877c0c342799766b3b7",
+      "installedDate": "2025-01-05T00:00:00+00:00",
+      "apiKey": "1572a3ecaa5a4ea8a04634036f2976b7"
+    },
+    {
+      "_id": "6aa45ad25d19418c9c14d3a3",
+      "ownerName": "Ruwan Fernando",
+      "address": "No. 68, Road 15, Puttalam",
+      "capacityKw": 10,
+      "meterId": "MTR-PUT-61717",
+      "substationId": "137f8877c0c342799766b3b7",
+      "installedDate": "2024-01-08T00:00:00+00:00",
+      "apiKey": "f78b658e190943aa9b3bf0c05eec7fa2"
+    },
+    {
+      "_id": "8729509b2dd24cb78f2dc7ad",
+      "ownerName": "Ruwan Bandara",
+      "address": "No. 164, Mawatha 4, Puttalam",
+      "capacityKw": 6,
+      "meterId": "MTR-PUT-59941",
+      "substationId": "137f8877c0c342799766b3b7",
+      "installedDate": "2025-02-25T00:00:00+00:00",
+      "apiKey": "c76ef3fa1e844f78b7e50a5c2d3d89f5"
+    },
+    {
+      "_id": "44da7ec031904cb7a5734cf3",
+      "ownerName": "Ishara Jayasuriya",
+      "address": "No. 227, Mawatha 20, Puttalam",
+      "capacityKw": 5.5,
+      "meterId": "MTR-PUT-13280",
+      "substationId": "137f8877c0c342799766b3b7",
+      "installedDate": "2024-11-13T00:00:00+00:00",
+      "apiKey": "d9bc01cf96a348dc9e67643a1579ce11"
+    },
+    {
+      "_id": "84bbf8abc00a4a829ae8cfda",
+      "ownerName": "Priya Fernando",
+      "address": "No. 180, Mawatha 14, Puttalam",
+      "capacityKw": 8,
+      "meterId": "MTR-PUT-70852",
+      "substationId": "137f8877c0c342799766b3b7",
+      "installedDate": "2025-04-10T00:00:00+00:00",
+      "apiKey": "3d6044f060cf4e1497ee7f1463b9ded8"
+    },
+    {
+      "_id": "46e08f74836844ec9e4fdde3",
+      "ownerName": "Kamal Perera",
+      "address": "No. 30, Road 8, Anuradhapura",
+      "capacityKw": 3,
+      "meterId": "MTR-ANU-49893",
+      "substationId": "d01039475e314b55959d5e73",
+      "installedDate": "2024-09-09T00:00:00+00:00",
+      "apiKey": "012b4726a7e54b31bfdcb87acf4003f2"
+    },
+    {
+      "_id": "0ba54ac69eb84addb6e1319a",
+      "ownerName": "Chathura Dissanayake",
+      "address": "No. 95, Place 19, Anuradhapura",
+      "capacityKw": 4,
+      "meterId": "MTR-ANU-60940",
+      "substationId": "d01039475e314b55959d5e73",
+      "installedDate": "2024-08-20T00:00:00+00:00",
+      "apiKey": "864e87b6209d4b4dbac1bb0d3b5543cb"
+    },
+    {
+      "_id": "5d0adc23568b404c88837948",
+      "ownerName": "Nadeeka Silva",
+      "address": "No. 214, Place 20, Anuradhapura",
+      "capacityKw": 5.5,
+      "meterId": "MTR-ANU-95841",
+      "substationId": "d01039475e314b55959d5e73",
+      "installedDate": "2024-02-20T00:00:00+00:00",
+      "apiKey": "013fb71986cc4a6799e78b7b8423f8f6"
+    },
+    {
+      "_id": "fd52aff03802448eb435b8c0",
+      "ownerName": "Chamari Bandara",
+      "address": "No. 114, Place 8, Anuradhapura",
+      "capacityKw": 3,
+      "meterId": "MTR-ANU-58566",
+      "substationId": "d01039475e314b55959d5e73",
+      "installedDate": "2024-04-21T00:00:00+00:00",
+      "apiKey": "04d002d7075444a3a48b512e1898545d"
+    },
+    {
+      "_id": "1d3fc1c8f494423c84cacc65",
+      "ownerName": "Malsha Wickramasinghe",
+      "address": "No. 140, Mawatha 2, Anuradhapura",
+      "capacityKw": 3,
+      "meterId": "MTR-ANU-99873",
+      "substationId": "d01039475e314b55959d5e73",
+      "installedDate": "2024-07-07T00:00:00+00:00",
+      "apiKey": "dc5f77b2476449f69763ceefa08c2a8d"
+    },
+    {
+      "_id": "d59229c346b748b491ce7277",
+      "ownerName": "Chamari Bandara",
+      "address": "No. 218, Place 3, Anuradhapura",
+      "capacityKw": 4,
+      "meterId": "MTR-ANU-26011",
+      "substationId": "d01039475e314b55959d5e73",
+      "installedDate": "2025-04-30T00:00:00+00:00",
+      "apiKey": "7f31028e11634a19804bc74a524acc2c"
+    },
+    {
+      "_id": "ce5526d9076345c0bbe0bd99",
+      "ownerName": "Priya Karunaratne",
+      "address": "No. 86, Lane 5, Polonnaruwa",
+      "capacityKw": 3,
+      "meterId": "MTR-POL-16629",
+      "substationId": "4bc2da74a12e4241af54fbaa",
+      "installedDate": "2025-02-06T00:00:00+00:00",
+      "apiKey": "8146ad3b76e340d1bc0b700e8190c979"
+    },
+    {
+      "_id": "a013f19ef2e640dc9fef83b0",
+      "ownerName": "Tharindu Karunaratne",
+      "address": "No. 196, Lane 19, Polonnaruwa",
+      "capacityKw": 4,
+      "meterId": "MTR-POL-18992",
+      "substationId": "4bc2da74a12e4241af54fbaa",
+      "installedDate": "2025-02-28T00:00:00+00:00",
+      "apiKey": "7ebf21a2963d4ebdbdd98e6778d122de"
+    },
+    {
+      "_id": "54585a83306b4d69905e85e3",
+      "ownerName": "Priya Jayasuriya",
+      "address": "No. 231, Road 9, Polonnaruwa",
+      "capacityKw": 5,
+      "meterId": "MTR-POL-29340",
+      "substationId": "4bc2da74a12e4241af54fbaa",
+      "installedDate": "2025-02-07T00:00:00+00:00",
+      "apiKey": "ccabde5577eb4b45ac0b1e4f52a9b396"
+    },
+    {
+      "_id": "6251f5eb3b3e43d8b8719751",
+      "ownerName": "Malsha Silva",
+      "address": "No. 205, Lane 4, Polonnaruwa",
+      "capacityKw": 4,
+      "meterId": "MTR-POL-80807",
+      "substationId": "4bc2da74a12e4241af54fbaa",
+      "installedDate": "2024-05-08T00:00:00+00:00",
+      "apiKey": "232b404c9dca4dadb7ca7a18d9151ab4"
+    },
+    {
+      "_id": "3bbd8c66f81744008e0ffa35",
+      "ownerName": "Ishara Perera",
+      "address": "No. 203, Lane 19, Polonnaruwa",
+      "capacityKw": 4,
+      "meterId": "MTR-POL-11947",
+      "substationId": "4bc2da74a12e4241af54fbaa",
+      "installedDate": "2024-07-02T00:00:00+00:00",
+      "apiKey": "ffac2c48692945a189c0c7630ee0d2c9"
+    },
+    {
+      "_id": "ca579e53a1274365a35e3510",
+      "ownerName": "Ruwan Perera",
+      "address": "No. 33, Place 17, Polonnaruwa",
+      "capacityKw": 4,
+      "meterId": "MTR-POL-44782",
+      "substationId": "4bc2da74a12e4241af54fbaa",
+      "installedDate": "2024-01-27T00:00:00+00:00",
+      "apiKey": "b9b7ec25d5a5469485072b5dde074c2f"
+    },
+    {
+      "_id": "4f47d9228a064046ae098fdf",
+      "ownerName": "Sunil Fernando",
+      "address": "No. 93, Road 15, Polonnaruwa",
+      "capacityKw": 5.5,
+      "meterId": "MTR-POL-68756",
+      "substationId": "4bc2da74a12e4241af54fbaa",
+      "installedDate": "2025-02-02T00:00:00+00:00",
+      "apiKey": "c3c94c06a58e409199dd723033a11223"
+    },
+    {
+      "_id": "60c5260494f7486fa02aef4b",
+      "ownerName": "Saman Jayasuriya",
+      "address": "No. 201, Mawatha 15, Polonnaruwa",
+      "capacityKw": 6,
+      "meterId": "MTR-POL-15683",
+      "substationId": "4bc2da74a12e4241af54fbaa",
+      "installedDate": "2025-01-07T00:00:00+00:00",
+      "apiKey": "396dfa836b1a4bbf9489eb8371c965d9"
+    },
+    {
+      "_id": "6ad49da04e8f4f95a18d69c4",
+      "ownerName": "Nimal Perera",
+      "address": "No. 176, Road 16, Badulla",
+      "capacityKw": 5.5,
+      "meterId": "MTR-BAD-62640",
+      "substationId": "c3a7fb4777964f6e9dc997fb",
+      "installedDate": "2024-08-06T00:00:00+00:00",
+      "apiKey": "96745463ad1c4e2e9342146818ccdd1c"
+    },
+    {
+      "_id": "35a9bd2d7896476da6dd1652",
+      "ownerName": "Nadeeka Gunawardena",
+      "address": "No. 156, Lane 3, Badulla",
+      "capacityKw": 3,
+      "meterId": "MTR-BAD-20589",
+      "substationId": "c3a7fb4777964f6e9dc997fb",
+      "installedDate": "2024-06-13T00:00:00+00:00",
+      "apiKey": "86a5ae922ccc485c822f95c8a71f964f"
+    },
+    {
+      "_id": "7ca2513fe3cc4411a34deeb4",
+      "ownerName": "Kamal Bandara",
+      "address": "No. 141, Mawatha 13, Badulla",
+      "capacityKw": 6,
+      "meterId": "MTR-BAD-92978",
+      "substationId": "c3a7fb4777964f6e9dc997fb",
+      "installedDate": "2024-10-26T00:00:00+00:00",
+      "apiKey": "fdc78c4ccc5747bebab242f083edfec5"
+    },
+    {
+      "_id": "2f74825bc11c43e5876e7096",
+      "ownerName": "Kasun Dissanayake",
+      "address": "No. 155, Place 4, Badulla",
+      "capacityKw": 5,
+      "meterId": "MTR-BAD-69469",
+      "substationId": "c3a7fb4777964f6e9dc997fb",
+      "installedDate": "2024-09-15T00:00:00+00:00",
+      "apiKey": "caf45a1fa1ba4aeea74196ff84062f77"
+    },
+    {
+      "_id": "07b631cf684d42209fafb919",
+      "ownerName": "Tharindu Fernando",
+      "address": "No. 225, Lane 14, Badulla",
+      "capacityKw": 10,
+      "meterId": "MTR-BAD-95814",
+      "substationId": "c3a7fb4777964f6e9dc997fb",
+      "installedDate": "2024-11-29T00:00:00+00:00",
+      "apiKey": "b351c13ad25b4038932a2da9bb225bb3"
+    },
+    {
+      "_id": "6e9f6c8d79ff4475a711f8ae",
+      "ownerName": "Dilani Jayasuriya",
+      "address": "No. 117, Place 14, Badulla",
+      "capacityKw": 5.5,
+      "meterId": "MTR-BAD-54424",
+      "substationId": "c3a7fb4777964f6e9dc997fb",
+      "installedDate": "2025-02-27T00:00:00+00:00",
+      "apiKey": "87cdbcd1ce5b4d1b995d009115a8043f"
+    },
+    {
+      "_id": "6d33e51eafb94e63a74eef2c",
+      "ownerName": "Nadeeka Fernando",
+      "address": "No. 171, Mawatha 12, Badulla",
+      "capacityKw": 5,
+      "meterId": "MTR-BAD-65936",
+      "substationId": "c3a7fb4777964f6e9dc997fb",
+      "installedDate": "2024-06-09T00:00:00+00:00",
+      "apiKey": "8b7677f9e8ad427ea1b0b92eb3f7c81d"
+    },
+    {
+      "_id": "170dc939252c4f16b6531feb",
+      "ownerName": "Kamal Gunawardena",
+      "address": "No. 22, Road 14, Badulla",
+      "capacityKw": 3,
+      "meterId": "MTR-BAD-21957",
+      "substationId": "c3a7fb4777964f6e9dc997fb",
+      "installedDate": "2025-03-01T00:00:00+00:00",
+      "apiKey": "575480bebda94d5ebd1e0cce98e5484a"
+    },
+    {
+      "_id": "893c649f8a414d818d9a584c",
+      "ownerName": "Nadeeka Wickramasinghe",
+      "address": "No. 16, Mawatha 4, Monaragala",
+      "capacityKw": 10,
+      "meterId": "MTR-MON-27054",
+      "substationId": "d131dd8b0471467f97ef601a",
+      "installedDate": "2024-10-11T00:00:00+00:00",
+      "apiKey": "e2136f856c6d478a977116ac1d3c0368"
+    },
+    {
+      "_id": "5db6b6471f0e420d8c04e4a7",
+      "ownerName": "Chamari Wickramasinghe",
+      "address": "No. 193, Place 2, Monaragala",
+      "capacityKw": 10,
+      "meterId": "MTR-MON-97207",
+      "substationId": "d131dd8b0471467f97ef601a",
+      "installedDate": "2025-04-26T00:00:00+00:00",
+      "apiKey": "b682ba737467483281fc70214cebcb12"
+    },
+    {
+      "_id": "d3bb668267c94900b5fdcca5",
+      "ownerName": "Anusha Karunaratne",
+      "address": "No. 148, Lane 5, Monaragala",
+      "capacityKw": 5,
+      "meterId": "MTR-MON-56090",
+      "substationId": "d131dd8b0471467f97ef601a",
+      "installedDate": "2024-02-23T00:00:00+00:00",
+      "apiKey": "7fd5bdef70c648a18aa5c3e4e0de74d1"
+    },
+    {
+      "_id": "6a29a232b3744ef3ac310d1f",
+      "ownerName": "Ishara Gunawardena",
+      "address": "No. 217, Mawatha 4, Monaragala",
+      "capacityKw": 4,
+      "meterId": "MTR-MON-24184",
+      "substationId": "d131dd8b0471467f97ef601a",
+      "installedDate": "2024-06-28T00:00:00+00:00",
+      "apiKey": "e7e75a38bf7541848dbdf5ce54d41d05"
+    },
+    {
+      "_id": "c76686ec77e74daa8dbe795b",
+      "ownerName": "Tharindu Bandara",
+      "address": "No. 110, Road 20, Monaragala",
+      "capacityKw": 6,
+      "meterId": "MTR-MON-39643",
+      "substationId": "d131dd8b0471467f97ef601a",
+      "installedDate": "2025-02-17T00:00:00+00:00",
+      "apiKey": "ba23f5eb40744781bb1bae6d15e2aabd"
+    },
+    {
+      "_id": "a023e03a71c3473796226760",
+      "ownerName": "Chathura Bandara",
+      "address": "No. 180, Mawatha 11, Monaragala",
+      "capacityKw": 3,
+      "meterId": "MTR-MON-33647",
+      "substationId": "d131dd8b0471467f97ef601a",
+      "installedDate": "2024-05-19T00:00:00+00:00",
+      "apiKey": "e278f23ac4c34dda8a50135e7351a786"
+    },
+    {
+      "_id": "8bfe4aecc8394c9890de5b71",
+      "ownerName": "Nimal Silva",
+      "address": "No. 169, Place 3, Ratnapura",
+      "capacityKw": 10,
+      "meterId": "MTR-RAT-28776",
+      "substationId": "7ff089a2f64f4bb2b5bcd4ef",
+      "installedDate": "2024-10-16T00:00:00+00:00",
+      "apiKey": "a3c5f9d6d719400e81c282f049c36f3e"
+    },
+    {
+      "_id": "3be1d9197c1d4b59ba9c3be3",
+      "ownerName": "Kamal Perera",
+      "address": "No. 97, Place 15, Ratnapura",
+      "capacityKw": 3,
+      "meterId": "MTR-RAT-79531",
+      "substationId": "7ff089a2f64f4bb2b5bcd4ef",
+      "installedDate": "2024-04-20T00:00:00+00:00",
+      "apiKey": "ab80e2d98553495fb86550f42658ba76"
+    },
+    {
+      "_id": "02abf6bee1f642fcb8239b92",
+      "ownerName": "Ruwan Silva",
+      "address": "No. 84, Road 2, Ratnapura",
+      "capacityKw": 5,
+      "meterId": "MTR-RAT-50846",
+      "substationId": "7ff089a2f64f4bb2b5bcd4ef",
+      "installedDate": "2025-01-04T00:00:00+00:00",
+      "apiKey": "21e3ecc7d9934202ab2cfb3d810e8002"
+    },
+    {
+      "_id": "e639f564a718430a88383dc6",
+      "ownerName": "Kamal Silva",
+      "address": "No. 173, Road 9, Ratnapura",
+      "capacityKw": 10,
+      "meterId": "MTR-RAT-90981",
+      "substationId": "7ff089a2f64f4bb2b5bcd4ef",
+      "installedDate": "2024-01-26T00:00:00+00:00",
+      "apiKey": "788b2e27636b4ba3919510fa82c5bb4f"
+    },
+    {
+      "_id": "4c01f8788703404db33a462b",
+      "ownerName": "Dilani Rajapaksa",
+      "address": "No. 107, Mawatha 7, Ratnapura",
+      "capacityKw": 5.5,
+      "meterId": "MTR-RAT-89570",
+      "substationId": "7ff089a2f64f4bb2b5bcd4ef",
+      "installedDate": "2024-08-14T00:00:00+00:00",
+      "apiKey": "386a3d0c1f1646b18b3fa6696591126e"
+    },
+    {
+      "_id": "7431bdcc84054b33bb23c1a6",
+      "ownerName": "Tharindu Dissanayake",
+      "address": "No. 29, Mawatha 19, Ratnapura",
+      "capacityKw": 3,
+      "meterId": "MTR-RAT-55242",
+      "substationId": "7ff089a2f64f4bb2b5bcd4ef",
+      "installedDate": "2024-08-08T00:00:00+00:00",
+      "apiKey": "632db7cb02cf4d508bb474c3eb46422d"
+    },
+    {
+      "_id": "4792f22f8b83477f9b472924",
+      "ownerName": "Dilani Dissanayake",
+      "address": "No. 57, Place 20, Ratnapura",
+      "capacityKw": 8,
+      "meterId": "MTR-RAT-50425",
+      "substationId": "7ff089a2f64f4bb2b5bcd4ef",
+      "installedDate": "2024-01-24T00:00:00+00:00",
+      "apiKey": "a4959c0286e942049c5a264a72dcacd7"
+    },
+    {
+      "_id": "a6964f783060498f9764cb79",
+      "ownerName": "Nimal Jayasuriya",
+      "address": "No. 36, Mawatha 10, Kegalle",
+      "capacityKw": 5,
+      "meterId": "MTR-KEG-37686",
+      "substationId": "f6f6c4f80138430daf65b153",
+      "installedDate": "2025-01-27T00:00:00+00:00",
+      "apiKey": "2d5d0c59241f47d988feffd04b630d9c"
+    },
+    {
+      "_id": "0dfba9142c1243e08d112b4a",
+      "ownerName": "Ruwan Fernando",
+      "address": "No. 111, Lane 5, Kegalle",
+      "capacityKw": 3,
+      "meterId": "MTR-KEG-75193",
+      "substationId": "f6f6c4f80138430daf65b153",
+      "installedDate": "2025-01-17T00:00:00+00:00",
+      "apiKey": "69a73b7e1758410c95b6cc12fee9b8fe"
+    },
+    {
+      "_id": "2cd5cf3f669b496883b23997",
+      "ownerName": "Chamari Dissanayake",
+      "address": "No. 144, Mawatha 3, Kegalle",
+      "capacityKw": 8,
+      "meterId": "MTR-KEG-40161",
+      "substationId": "f6f6c4f80138430daf65b153",
+      "installedDate": "2024-09-13T00:00:00+00:00",
+      "apiKey": "7881f5805bc7441bbdbc8079dd47791b"
+    },
+    {
+      "_id": "09c3164f96a2408ab59c1742",
+      "ownerName": "Chamari Perera",
+      "address": "No. 236, Road 11, Kegalle",
+      "capacityKw": 5.5,
+      "meterId": "MTR-KEG-12456",
+      "substationId": "f6f6c4f80138430daf65b153",
+      "installedDate": "2024-08-23T00:00:00+00:00",
+      "apiKey": "8135e12b0ac44dc18f023647acc2d690"
+    },
+    {
+      "_id": "80e14a8ed6b849f3b45bfd75",
+      "ownerName": "Kasun Rajapaksa",
+      "address": "No. 164, Place 10, Kegalle",
+      "capacityKw": 6,
+      "meterId": "MTR-KEG-63008",
+      "substationId": "f6f6c4f80138430daf65b153",
+      "installedDate": "2024-12-29T00:00:00+00:00",
+      "apiKey": "d51b08e1dbd34712ac4f9bb7d7210db0"
+    },
+    {
+      "_id": "8e3f4e2ec31d4ed2a19267cf",
+      "ownerName": "Sunil Rajapaksa",
+      "address": "No. 206, Place 12, Kegalle",
+      "capacityKw": 3,
+      "meterId": "MTR-KEG-52568",
+      "substationId": "f6f6c4f80138430daf65b153",
+      "installedDate": "2024-03-28T00:00:00+00:00",
+      "apiKey": "9f9b0937db0e4b0ab95b370fede4f057"
+    }
+  ]
+}
