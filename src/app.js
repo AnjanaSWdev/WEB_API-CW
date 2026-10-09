@@ -6,6 +6,8 @@ const districtRoutes = require('./routes/districtRoutes');
 const substationRoutes = require('./routes/substationRoutes');
 const installationRoutes = require('./routes/installationRoutes');
 const authRoutes = require('./routes/authRoutes');
+const swaggerUi = require('swagger-ui-express');
+const swaggerSpec = require('./config/swagger');
 
 const app = express();
 
@@ -20,6 +22,8 @@ app.use('/substations', substationRoutes);
 app.use('/installations', installationRoutes);
 app.use('/auth', authRoutes);
 
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+
 app.use((req, res) => {
   res.status(404).json({
     error: { code: 'NOT_FOUND', message: `No route for ${req.method} ${req.originalUrl}`, detail: null }
@@ -29,3 +33,7 @@ app.use((req, res) => {
 app.use(errorHandler);
 
 module.exports = app;
+
+
+
+
