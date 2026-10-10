@@ -6,7 +6,6 @@ const districtRoutes = require('./routes/districtRoutes');
 const substationRoutes = require('./routes/substationRoutes');
 const installationRoutes = require('./routes/installationRoutes');
 const authRoutes = require('./routes/authRoutes');
-const swaggerUi = require('swagger-ui-express');
 const swaggerSpec = require('./config/swagger');
 
 const app = express();
@@ -22,7 +21,45 @@ app.use('/substations', substationRoutes);
 app.use('/installations', installationRoutes);
 app.use('/auth', authRoutes);
 
-app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+// Friendly root route instead of a 404 when someone opens the bare URL
+app.get('/', (req, res) => {
+  res.json({
+    name: 'SLSEA Solar Generation Monitoring API',
+    status: 'ok',
+    docs: '/api-docs',
+    health: '/health',
+  });
+});
+
+// Raw OpenAPI spec as JSON
+app.get('/api-docs.json', (req, res) => {
+  res.json(swaggerSpec);
+});
+
+// Swagger UI page — loads its CSS/JS from a CDN instead of local static
+// files, which Vercel's serverless bundler does not reliably package.
+app.get('/api-docs', (req, res) => {
+  res.setHeader('Content-Type', 'text/html');
+  res.send(`<!DOCTYPE html>
+<html>
+<head>
+  <title>SLSEA API Docs</title>
+  <link rel="stylesheet" href="https://unpkg.com/swagger-ui-dist@5.17.14/swagger-ui.css" />
+</head>
+<body>
+  <div id="swagger-ui"></div>
+  <script src="https://unpkg.com/swagger-ui-dist@5.17.14/swagger-ui-bundle.js"></script>
+  <script>
+    window.onload = () => {
+      window.ui = SwaggerUIBundle({
+        url: '/api-docs.json',
+        dom_id: '#swagger-ui',
+      });
+    };
+  </script>
+</body>
+</html>`);
+});
 
 app.use((req, res) => {
   res.status(404).json({
